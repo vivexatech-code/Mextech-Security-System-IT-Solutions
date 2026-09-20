@@ -1,16 +1,6 @@
-import express, { Request, Response } from "express";
-import path from "path";
-import { createServer as createViteServer } from "vite";
-import dotenv from "dotenv";
+import { NextResponse } from "next/server";
 
-dotenv.config();
-
-const app = express();
-const PORT = 3000;
-
-app.use(express.json());
-
-// In-memory rate limiting to prevent abuse
+// In-memory rate limiting tracker
 const submissionTracker = new Map<string, { count: number; firstAttempt: number }>();
 const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
 const MAX_REQUESTS_PER_WINDOW = 5;
@@ -25,15 +15,10 @@ function sanitizeHtml(str: string): string {
     .replace(/'/g, "&#039;");
 }
 
-// Health check endpoint
-app.get("/api/health", (_req: Request, res: Response) => {
-  res.json({ status: "ok", timestamp: new Date().toISOString() });
-});
-
-// Contact enquiry endpoint
-app.post("/api/contact", async (req: Request, res: Response): Promise<void> => {
+export async function POST(req: Request) {
   try {
-    const clientIp = (req.headers["x-forwarded-for"] as string) || req.socket.remoteAddress || "unknown";
+    const forwardedFor = req.headers.get("x-forwarded-for");
+    const clientIp = forwardedFor ? forwardedFor.split(",")[0].trim() : "unknown";
 
     // Rate limiting check
     const now = Date.now();
@@ -41,11 +26,13 @@ app.post("/api/contact", async (req: Request, res: Response): Promise<void> => {
     if (rateData) {
       if (now - rateData.firstAttempt < RATE_LIMIT_WINDOW_MS) {
         if (rateData.count >= MAX_REQUESTS_PER_WINDOW) {
-          res.status(429).json({
-            success: false,
-            message: "Too many enquiries from your connection. Please call or WhatsApp us directly at +91 85109 29404.",
-          });
-          return;
+          return NextResponse.json(
+            {
+              success: false,
+              message: "Too many enquiries from your connection. Please call or WhatsApp us directly at +91 85109 29404.",
+            },
+            { status: 429 }
+          );
         }
         rateData.count += 1;
       } else {
@@ -55,42 +42,42 @@ app.post("/api/contact", async (req: Request, res: Response): Promise<void> => {
       submissionTracker.set(clientIp, { count: 1, firstAttempt: now });
     }
 
-    const { name, phone, email, service, message, honeypot } = req.body;
+    const body = await req.json();
+    const { name, phone, email, service, message, honeypot } = body;
 
     // Honeypot anti-spam check
     if (honeypot && String(honeypot).trim() !== "") {
-      // Silently pretend success to fool bots
-      res.json({ success: true, message: "Thank you! Your enquiry has been received." });
-      return;
+      return NextResponse.json({ success: true, message: "Thank you! Your enquiry has been received." });
     }
 
     // Required fields validation
     if (!name || typeof name !== "string" || name.trim().length < 2) {
-      res.status(400).json({ success: false, message: "Please provide a valid full name." });
-      return;
+      return NextResponse.json({ success: false, message: "Please provide a valid full name." }, { status: 400 });
     }
 
     if (!phone || typeof phone !== "string" || phone.trim().length < 8) {
-      res.status(400).json({ success: false, message: "Please provide a valid phone number (at least 8-10 digits)." });
-      return;
+      return NextResponse.json(
+        { success: false, message: "Please provide a valid phone number (at least 8-10 digits)." },
+        { status: 400 }
+      );
     }
 
     if (!service || typeof service !== "string" || service.trim().length === 0) {
-      res.status(400).json({ success: false, message: "Please select the service required." });
-      return;
+      return NextResponse.json({ success: false, message: "Please select the service required." }, { status: 400 });
     }
 
     if (!message || typeof message !== "string" || message.trim().length < 3) {
-      res.status(400).json({ success: false, message: "Please enter your message or project requirements." });
-      return;
+      return NextResponse.json(
+        { success: false, message: "Please enter your message or project requirements." },
+        { status: 400 }
+      );
     }
 
     // Email format validation if provided
     if (email && typeof email === "string" && email.trim().length > 0) {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email.trim())) {
-        res.status(400).json({ success: false, message: "Please enter a valid email address." });
-        return;
+        return NextResponse.json({ success: false, message: "Please enter a valid email address." }, { status: 400 });
       }
     }
 
@@ -187,48 +174,27 @@ app.post("/api/contact", async (req: Request, res: Response): Promise<void> => {
         console.error("Error dispatching email via Resend:", emailErr);
       }
     } else {
-      console.log("ℹ️ [MEXTECH ENQUIRY RECEIVED]");
+      console.log("ℹ️ [MEXTECH ENQUIRY RECEIVED IN APP ROUTER]");
       console.log(`Name: ${cleanName}`);
       console.log(`Phone: ${cleanPhone}`);
       console.log(`Email: ${cleanEmail}`);
       console.log(`Service: ${cleanService}`);
       console.log(`Message: ${cleanMessage}`);
       console.log(`Timestamp: ${submissionTimestamp}`);
-      console.log("Note: RESEND_API_KEY not configured or using placeholder; enquiry logged on server.");
     }
 
-    res.json({
+    return NextResponse.json({
       success: true,
       message: "Thank you! Your enquiry has been received. Our team will contact you shortly.",
     });
   } catch (err) {
     console.error("Internal error processing enquiry:", err);
-    res.status(500).json({
-      success: false,
-      message: "Something went wrong while sending your enquiry. Please try again or contact us directly by phone or WhatsApp.",
-    });
+    return NextResponse.json(
+      {
+        success: false,
+        message: "Something went wrong while sending your enquiry. Please try again or contact us directly by phone or WhatsApp.",
+      },
+      { status: 500 }
+    );
   }
-});
-
-// Vite middleware setup
-async function startServer() {
-  if (process.env.NODE_ENV !== "production") {
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: "spa",
-    });
-    app.use(vite.middlewares);
-  } else {
-    const distPath = path.join(process.cwd(), "dist");
-    app.use(express.static(distPath));
-    app.get("*", (_req: Request, res: Response) => {
-      res.sendFile(path.join(distPath, "index.html"));
-    });
-  }
-
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Mextech Server running on http://localhost:${PORT}`);
-  });
 }
-
-startServer();

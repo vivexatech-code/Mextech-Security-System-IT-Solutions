@@ -8,7 +8,7 @@ export interface ServiceItem {
   fullDesc: string;
   features: string[];
   equipment: string[];
-  detailSlug?: string; // route link for detail page
+  detailSlug?: string;
 }
 
 export interface ServiceDetailGroup {

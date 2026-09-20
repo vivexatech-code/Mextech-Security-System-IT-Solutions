@@ -37,7 +37,7 @@ export const COMPANY_INFO = {
   ]
 };
 
-// All 13 services with dedicated high quality images
+// All 13 services with dedicated high quality photography
 export const SERVICES_DATA: ServiceItem[] = [
   {
     id: "cctv-surveillance",
@@ -265,36 +265,42 @@ export const SERVICES_DATA: ServiceItem[] = [
 // Featured 6 services for the homepage (Image-based cards, NOT icons!)
 export const FEATURED_SERVICES = [
   {
+    id: "feat-cctv",
     title: "CCTV Surveillance",
     desc: "Professional CCTV camera installation and surveillance solutions with 24/7 mobile monitoring.",
     imageUrl: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
     detailLink: "/services/cctv-surveillance"
   },
   {
+    id: "feat-nvr",
     title: "NVR / DVR / PTZ Solutions",
     desc: "Centralized high-capacity video recording and 360° motorized zoom tracking cameras.",
     imageUrl: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
     detailLink: "/services/cctv-surveillance"
   },
   {
+    id: "feat-access",
     title: "Access Control & Biometric",
     desc: "Secure entry management using facial recognition, fingerprint scanners, and smart locks.",
     imageUrl: "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80",
     detailLink: "/services/access-control"
   },
   {
+    id: "feat-fire",
     title: "Fire & Security Systems",
     desc: "Early smoke detection, perimeter intrusion alerts, and certified firefighting equipment.",
     imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
     detailLink: "/services/fire-security"
   },
   {
+    id: "feat-networking",
     title: "Networking & Wi-Fi",
     desc: "Reliable networking, PoE backbones, and enterprise Wi-Fi infrastructure for seamless coverage.",
     imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
     detailLink: "/services/networking"
   },
   {
+    id: "feat-vdp",
     title: "Video Door Phone",
     desc: "Smart touch video intercoms with high-definition visitor screening and remote door unlocking.",
     imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
@@ -791,7 +797,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
   }
 ];
 
-// Authentic, concise customer reviews
+// Authentic customer reviews
 export const REVIEWS_DATA: ReviewItem[] = [
   {
     id: "rev-1",
