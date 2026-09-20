@@ -1,0 +1,6 @@
+{
+  "name": "Mextech Security System & IT Solutions",
+  "description": "Professional CCTV, security systems, access control, networking, and IT solutions for homes and businesses in Gurugram, Haryana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
