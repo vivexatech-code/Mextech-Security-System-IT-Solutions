@@ -75,7 +75,7 @@ export const HOMEPAGE_SERVICES_PILLARS = [
     title: "CCTV & Surveillance",
     tagline: "4K Clarity • Smart Night Vision • Remote Live Monitoring",
     description: "End-to-end video security solutions engineered with genuine brand equipment, concealed conduit wiring, and seamless mobile phone access.",
-    imageUrl: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/main.jpg",
     badge: "SURVEILLANCE",
     detailLink: "/services/cctv-surveillance",
     subServices: [
@@ -93,7 +93,7 @@ export const HOMEPAGE_SERVICES_PILLARS = [
     title: "Security Systems",
     tagline: "Life Safety • Perimeter Defense • Smart Intercoms",
     description: "Certified smoke detection, burglar intruder alarms, smart video door phones, and employee biometric time attendance systems.",
-    imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/security-systems.jpg", 
     badge: "SECURITY & SAFETY",
     detailLink: "/services/fire-security",
     subServices: [
@@ -111,7 +111,7 @@ export const HOMEPAGE_SERVICES_PILLARS = [
     title: "Automation",
     tagline: "Smart Entry • Motorized Gates • Digital Locks",
     description: "Intelligent barrier and access automation designed for smooth vehicular management, heavy-duty sliding gates, and keyless biometric entry.",
-    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/access-control-biometric.jpg",
     badge: "AUTOMATION",
     detailLink: "/services/access-control",
     subServices: [
@@ -127,7 +127,7 @@ export const HOMEPAGE_SERVICES_PILLARS = [
     title: "IT & Networking",
     tagline: "Gigabit Cabling • Enterprise Wi-Fi • Server Racks",
     description: "High-throughput network backbones, seamless zero-handoff Wi-Fi 6 coverage, organized server rack dressing, and pure copper Cat6 cabling.",
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/networking-wifi.jpg",
     badge: "NETWORKING",
     detailLink: "/services/networking",
     subServices: [
@@ -147,14 +147,14 @@ export const SPECIALIZED_SYSTEMS = [
   {
     title: "PA System (Public Address)",
     desc: "Commercial zone-based paging microphones, high-fidelity wall & ceiling speakers, and multi-channel background music amplifiers.",
-    imageUrl: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/pa-system.jpg",
     link: "/services/fire-security",
     items: ["Zone Paging Consoles", "Ceiling & Horn Speakers", "Emergency Override Voice Alert"]
   },
   {
     title: "Walkie-Talkies & Two-Way Radios",
     desc: "Long-range UHF/VHF handheld transceivers for on-site security guards, warehouse logistics, facility managers, and multi-floor operations.",
-    imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/walkie-talkies.jpg",
     link: "/services/access-control",
     items: ["Long Battery Life", "Noise-Cancelling Mic", "Multi-Channel License-Free Radios"]
   }
@@ -232,7 +232,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "cctv-surveillance",
     title: "CCTV Camera & Surveillance Systems",
     category: "surveillance",
-    imageUrl: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/main.jpg",
     shortDesc: "High-definition analog, IP, and AI smart surveillance camera setups engineered for homes, retail, and commercial security.",
     fullDesc: "Complete CCTV camera installation engineered for 24/7 crystal-clear perimeter security. We deploy ultra-HD night-vision bullet and dome cameras with AI motion detection, mobile live streaming, and tamper alerts.",
     features: [
@@ -249,7 +249,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "cctv-surveillance",
     title: "NVR / DVR / PTZ Camera Solutions",
     category: "surveillance",
-    imageUrl: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/nvr-dvr-ptz.jpg",
     shortDesc: "Advanced Network Video Recorders, Digital Video Recorders, and 360° motorized Pan-Tilt-Zoom optical tracking cameras.",
     fullDesc: "Robust recording architecture with centralized storage and precision motorized PTZ cameras that pan 360°, tilt 90°, and zoom up to 30x with automatic optical tracking for large estates, factories, and commercial compounds.",
     features: [
@@ -266,7 +266,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "fire-security",
     title: "PA System (Public Address)",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/pa-system.jpg",
     shortDesc: "Commercial sound distribution, background music, and emergency voice alarm public address installations.",
     fullDesc: "Clear and reliable audio communication systems for schools, manufacturing facilities, corporate floors, and retail spaces. Includes zone-based microphone consoles, wall/ceiling speakers, and emergency priority broadcasting.",
     features: [
@@ -283,7 +283,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "video-door-phone",
     title: "Video Door Phone (VDP)",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/video-door-phone.jpg",
     shortDesc: "Smart touch screen video intercoms with high-definition cameras, remote door unlock, and visitor mobile connectivity.",
     fullDesc: "Screen visitors before opening your door. Our modern Video Door Phone installations feature weatherproof outdoor camera units with IR night vision, interior capacitive touch screens, and smartphone call forwarding.",
     features: [
@@ -300,7 +300,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "fire-security",
     title: "Fire & Security Alarm Systems",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/fire-security-alarm.jpg",
     shortDesc: "Certified smoke detection, heat sensors, intrusion detectors, and multi-zone hooter alarms for maximum life safety.",
     fullDesc: "Comprehensive early-warning fire and perimeter intrusion alarm networks. Protect your people and property with sensitive optical smoke detectors, manual call points, loud sounders, and auto-dialers that notify you instantly.",
     features: [
@@ -317,7 +317,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "access-control",
     title: "Access Control & Biometric Systems",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/access-control-biometric.jpg",
     shortDesc: "Fingerprint, facial recognition, and RFID card access control with automated time & attendance software integration.",
     fullDesc: "Secure your entry points and automate staff attendance tracking. We install contactless face recognition terminals, biometric fingerprint scanners, EM lock doors, and turnstiles with detailed employee shift reporting.",
     features: [
@@ -334,7 +334,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "networking",
     title: "Networking & Wi-Fi Solutions",
     category: "networking",
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/networking-wifi.jpg",
     shortDesc: "High-speed enterprise routers, dual-band Wi-Fi setups, unified mesh networks, and dead-zone elimination.",
     fullDesc: "Eliminate buffering and dropped connections with our structured commercial and residential Wi-Fi solutions. Seamless roaming across multiple floors, isolated guest networks, and rock-solid bandwidth management.",
     features: [
@@ -351,7 +351,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "networking",
     title: "PoE Switch & Network Solutions",
     category: "networking",
-    imageUrl: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/wifi-extender-ap.jpg",
     shortDesc: "Managed and unmanaged Power over Ethernet (PoE) switches delivering data and power through single Cat6 runs.",
     fullDesc: "Robust backbone switching infrastructure built specifically for CCTV cameras, IP phones, and wireless access points. Features gigabit uplinks, surge protection, long-distance 250m PoE mode, and power budgeting.",
     features: [
@@ -368,7 +368,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "networking",
     title: "CCTV Cabling & Structured Wiring",
     category: "networking",
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/nvr-dvr-ptz.jpg",
     shortDesc: "Concealed conduit laying, high-grade 100% pure copper Cat6 cabling, coaxial 3+1 lines, and clean cable labeling.",
     fullDesc: "Reliable surveillance depends on durable cabling. We enforce zero-compromise cabling standards using 100% annealed copper, fire-retardant PVC conduits, numbered cable sleeves, and clean patch panel punching.",
     features: [
@@ -385,7 +385,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "repair-maintenance",
     title: "CCTV / NVR / DVR Repair & PCB Services",
     category: "repair",
-    imageUrl: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/cctv-repair-pcb.jpg",
     shortDesc: "Component-level motherboard repair, SMPS power supply fix, video loss troubleshooting, and firmware recovery.",
     fullDesc: "Expert technical workbench repair in Gurugram. We fix dead DVRs, flickering camera channels, broken BNC connectors, blown capacitors, corrupted firmware chips, and unreadable surveillance hard disks.",
     features: [
@@ -402,7 +402,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "repair-maintenance",
     title: "Security System Maintenance & AMC",
     category: "repair",
-    imageUrl: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/security-maintenance.jpg",
     shortDesc: "Annual Maintenance Contracts (AMC), periodic lens cleaning, cable health checks, and priority breakdown response.",
     fullDesc: "Keep your security systems operational year-round. Our AMC plans include scheduled on-site preventative maintenance, lens and dome polishing, angle adjustments, recording verification, and rapid on-call repairs across Gurugram.",
     features: [
@@ -419,7 +419,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "networking",
     title: "WiFi Extender & Access Point",
     category: "networking",
-    imageUrl: "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/wifi-extender-ap.jpg",
     shortDesc: "High-gain wall & ceiling access points and range extenders engineered to eliminate dead spots in multi-story buildings.",
     fullDesc: "Extend high-speed wireless connectivity to hard-to-reach areas like basements, gardens, upper terraces, and thick-walled rooms with enterprise-grade access points that deliver wall-to-wall high-throughput Wi-Fi.",
     features: [
@@ -436,7 +436,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "fire-security",
     title: "Fire Extinguisher Solutions",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/fire-extinguisher.jpg",
     shortDesc: "Supply, installation, refilling, and periodic inspection of ABC Powder, CO2, and Clean Agent fire extinguishers.",
     fullDesc: "Equip your building with compliant first-line firefighting equipment. We provide ISI-marked ABC dry powder extinguishers, CO2 extinguishers for electrical server rooms, ceiling modular units, and hydro-testing refill services.",
     features: [
@@ -453,7 +453,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "access-control",
     title: "Walkie-Talkies & Two-Way Radios",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/walkie-talkies.jpg",
     shortDesc: "High-power wireless handheld radios engineered for security staff, facility management, and instant multi-team communications.",
     fullDesc: "Instant push-to-talk wireless transceivers designed for zero latency. Perfect for multi-story buildings, security checkpoints, construction sites, and logistics hubs where mobile reception is unreliable.",
     features: [
@@ -470,7 +470,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     detailSlug: "video-door-phone",
     title: "Intercom & EPABX Systems",
     category: "access",
-    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/intercom-epabx.png",
     shortDesc: "Commercial PBX, digital key telephones, and multi-apartment intercom systems from Matrix, NEC, and CCL.",
     fullDesc: "Seamless voice connectivity across departments and apartment units. We install analog and IP-PBX phone systems, guard-to-flat intercoms, auto-attendant IVR, and call recording backbones.",
     features: [
@@ -489,42 +489,42 @@ export const FEATURED_SERVICES = [
     id: "feat-cctv",
     title: "CCTV Surveillance",
     desc: "Professional CCTV camera installation and surveillance solutions with 24/7 mobile monitoring.",
-    imageUrl: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/main.jpg",
     detailLink: "/services/cctv-surveillance"
   },
   {
     id: "feat-nvr",
     title: "NVR / DVR / PTZ Solutions",
     desc: "Centralized high-capacity video recording and 360° motorized zoom tracking cameras.",
-    imageUrl: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/nvr-dvr-ptz.jpg",
     detailLink: "/services/cctv-surveillance"
   },
   {
     id: "feat-access",
     title: "Access Control & Biometric",
     desc: "Secure entry management using facial recognition, fingerprint scanners, and smart locks.",
-    imageUrl: "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/access-control-biometric.jpg",
     detailLink: "/services/access-control"
   },
   {
     id: "feat-fire",
     title: "Fire & Security Systems",
     desc: "Early smoke detection, perimeter intrusion alerts, and certified firefighting equipment.",
-    imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/fire-security-alarm.jpg",
     detailLink: "/services/fire-security"
   },
   {
     id: "feat-networking",
     title: "Networking & Wi-Fi",
     desc: "Reliable networking, PoE backbones, and enterprise Wi-Fi infrastructure for seamless coverage.",
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/networking-wifi.jpg",
     detailLink: "/services/networking"
   },
   {
     id: "feat-vdp",
     title: "Video Door Phone",
     desc: "Smart touch video intercoms with high-definition visitor screening and remote door unlocking.",
-    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/video-door-phone.jpg",
     detailLink: "/services/video-door-phone"
   }
 ];
@@ -536,7 +536,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     name: "CCTV Camera & Surveillance Systems",
     heroTitle: "Enterprise CCTV & Surveillance Solutions",
     heroSubtitle: "Crystal-clear high-definition recording, smart night vision, and remote mobile monitoring engineered for complete peace of mind.",
-    heroImage: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/assets/main.jpg",
     shortIntro: "MEXTECH delivers turnkey surveillance systems across Gurugram, from compact residential camera kits to multi-floor commercial 64-channel NVR deployments.",
     includedServices: [
       "HD Analog & IP Network Cameras (2MP to 8MP 4K)",
@@ -605,7 +605,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     name: "Networking, Wi-Fi & Infrastructure",
     heroTitle: "High-Speed Enterprise Networking & Wi-Fi",
     heroSubtitle: "Eliminate dead zones, dropped calls, and slow bandwidth with structured Cat6 cabling, PoE backbones, and unified Wi-Fi 6 coverage.",
-    heroImage: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/assets/networking-wifi.jpg",
     shortIntro: "A reliable network is the foundation of modern security and business operations. Mextech designs and deploys high-concurrency network backbones tailored for homes, corporate offices, and warehouses.",
     includedServices: [
       "Structured Cat6 / Cat6A Copper Cabling & Termination",
@@ -669,7 +669,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     name: "Access Control & Biometric Systems",
     heroTitle: "Biometric Access Control & Attendance",
     heroSubtitle: "Protect sensitive areas and automate employee attendance tracking with AI face recognition, fingerprint terminals, and electromagnetic door locks.",
-    heroImage: "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/assets/access-control-biometric.jpg",
     shortIntro: "Manage entry permissions and eliminate proxy attendance. Mextech installs reliable biometric access control and cloud attendance systems across Gurugram businesses.",
     includedServices: [
       "Contactless AI Facial Recognition Terminals",
@@ -733,7 +733,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     name: "Fire & Security Alarm Systems",
     heroTitle: "Fire Safety, Alarms & Protection",
     heroSubtitle: "Certified optical smoke detectors, perimeter intrusion alarms, and ISI-certified fire extinguishers designed for maximum life safety.",
-    heroImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/assets/fire-security-alarm.jpg",
     shortIntro: "Early detection prevents catastrophe. Mextech provides complete commercial and residential fire alarm networks, intrusion warning sensors, and certified fire extinguishers.",
     includedServices: [
       "Addressable & Conventional Fire Alarm Panels",
@@ -797,7 +797,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     name: "Video Door Phone & Smart Intercom",
     heroTitle: "Smart Video Intercoms & Door Entry",
     heroSubtitle: "Screen visitors safely before opening your door with HD cameras, capacitive touch screens, two-way audio, and remote smartphone unlock.",
-    heroImage: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/assets/video-door-phone.jpg",
     shortIntro: "Modern convenience meets home security. Mextech installs premium Video Door Phone systems for villas, builder floors, and apartments across Gurugram.",
     includedServices: [
       "7-Inch to 10-Inch Color Touchscreen Indoor Monitors",
@@ -860,7 +860,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     name: "CCTV/DVR Repair & Annual Maintenance (AMC)",
     heroTitle: "Component-Level Repair & Maintenance AMC",
     heroSubtitle: "Gurugram's trusted diagnostic workbench for dead DVRs, video loss, flickering channels, motherboard soldering, and proactive AMC servicing.",
-    heroImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1600&q=80",
+    heroImage: "/assets/security-maintenance.jpg",
     shortIntro: "Don't discard expensive equipment. Mextech provides skilled component-level repair for DVRs, NVRs, SMPS power supplies, and ongoing security system maintenance.",
     includedServices: [
       "DVR / NVR Motherboard Chip-Level Micro-Soldering",
@@ -967,7 +967,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "Residential CCTV & Smart VDP",
     category: "Residential CCTV",
     location: "Sector 48, Gurugram",
-    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/video-door-phone.jpg",
     description: "8-camera 5MP IP surveillance system with smart night vision, touch video door phone, and remote mobile viewing.",
     highlights: ["8x 5MP IP Cameras", "Touch Video Door Phone", "100% Concealed Wiring"]
   },
@@ -976,7 +976,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "Corporate Office Surveillance & Rack",
     category: "Office Surveillance",
     location: "Cyber City, Gurugram",
-    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/main.jpg",
     description: "Multi-floor 32-camera NVR setup with structured Cat6 network cabling, 24-port PoE switches, and server rack management.",
     highlights: ["32x IP Dome Cameras", "32-CH 4K NVR Setup", "Server Rack Cable Dressing"]
   },
@@ -985,7 +985,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "Retail Store Surveillance & Access",
     category: "Commercial Security",
     location: "MG Road, Gurugram",
-    imageUrl: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/nvr-dvr-ptz.jpg",
     description: "High-clarity optical zoom cameras covering cash counters, merchandise aisles, and biometrics door control for stockrooms.",
     highlights: ["Audio-Enabled Cameras", "RFID Stockroom Access", "Cash Counter Micro-View"]
   },
@@ -994,7 +994,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "High-Speed Mesh Wi-Fi & Backbone",
     category: "Networking Installation",
     location: "DLF Phase 2, Gurugram",
-    imageUrl: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/wifi-extender-ap.jpg",
     description: "Enterprise Wi-Fi 6 access point deployment across a 3-level facility with seamless zero-handoff roaming and 500+ Mbps throughput.",
     highlights: ["Gigabit PoE Backbone", "Dual-Band Wi-Fi 6", "Zero Dead Zones"]
   },
@@ -1003,7 +1003,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "Biometric Attendance & Door Lock",
     category: "Access Control",
     location: "Udyog Vihar, Gurugram",
-    imageUrl: "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/access-control-biometric.jpg",
     description: "Dual AI face recognition and biometric fingerprint access control linked directly with automated payroll software.",
     highlights: ["Face & Fingerprint Combo", "Electromagnetic Door Lock", "Automated Attendance Logs"]
   },
@@ -1012,7 +1012,7 @@ export const PROJECTS_DATA: ProjectItem[] = [
     title: "Industrial Perimeter Surveillance",
     category: "Industrial Security",
     location: "IMT Manesar, Haryana",
-    imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "/assets/security-systems.jpg",
     description: "Long-range IR bullet cameras with perimeter tripwire intrusion alert, fiber optic backhaul, and 24/7 central guardroom viewing.",
     highlights: ["16x Long-Range Bullets", "Fiber Optic Line Link", "Perimeter AI Tripwire"]
   }

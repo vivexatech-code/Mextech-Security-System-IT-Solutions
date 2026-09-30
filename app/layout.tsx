@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     siteName: "Mextech Security System & IT Solutions",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1200&q=80",
+        url: "/assets/main.jpg",
         width: 1200,
         height: 630,
         alt: "Mextech Security Systems & IT Solutions Gurugram",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mextech Security System & IT Solutions | CCTV & Security Gurugram",
     description: "Reliable CCTV, Security & IT Solutions for Homes, Offices & Businesses in Gurugram. 14+ Years Experience.",
-    images: ["https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1200&q=80"],
+    images: ["/assets/main.jpg"],
   },
   icons: {
     icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/%3E%3Ccircle cx='12' cy='11' r='3' fill='%230284c7'/%3E%3C/svg%3E",
@@ -87,7 +87,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
   name: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
-  image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
+  image: "/assets/main.jpg",
   description:
     "Professional security and IT solutions company based in Gurugram, Haryana. 14+ years experience. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
   foundingDate: "2010",

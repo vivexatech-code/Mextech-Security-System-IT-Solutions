@@ -13,7 +13,7 @@ export default function AboutPreview() {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-950 aspect-[4/3]">
               <Image
-                src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1000&q=80"
+                src="/assets/security-systems.jpg"
                 alt="Mextech certified field technician inspecting electronic security systems"
                 fill
                 className="object-cover"

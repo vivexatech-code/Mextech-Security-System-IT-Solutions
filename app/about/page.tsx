@@ -138,7 +138,7 @@ export default function AboutPage() {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 aspect-square">
                 <Image
-                  src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1000&q=80"
+                  src="/assets/main.jpg"
                   alt="Mextech commercial security installation in Gurugram"
                   fill
                   className="object-cover"

@@ -124,7 +124,7 @@ export default function Hero() {
               {/* Feature Hero Image */}
               <div className="relative h-72 sm:h-80 w-full overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1000&q=80"
+                  src="/assets/main.jpg"
                   alt="Modern CCTV and Security System Installation by Mextech"
                   fill
                   priority
