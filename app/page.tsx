@@ -1,9 +1,9 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import TrustStrip from "@/components/TrustStrip";
-import ServiceGrid from "@/components/ServiceGrid";
-import AboutPreview from "@/components/AboutPreview";
+import PillarServicesSection from "@/components/PillarServicesSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import BrandsSection from "@/components/BrandsSection";
 import ProjectShowcase from "@/components/ProjectShowcase";
 import ReviewSlider from "@/components/ReviewSlider";
 import ContactForm from "@/components/ContactForm";
@@ -12,25 +12,25 @@ import CTA from "@/components/CTA";
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero Section */}
+      {/* 1. Hero Section with 14+ Years Experience & Quick Service Badges */}
       <Hero />
 
-      {/* 2. Trust Strip */}
+      {/* 2. Trust Strip with Authorized Brands & Premises */}
       <TrustStrip />
 
-      {/* 3. Featured 6 Core Services */}
-      <ServiceGrid featuredOnly={true} />
+      {/* 3. Core Service Pillars & Subservices (CCTV & Surveillance, Security Systems, Automation, IT & Networking + PA & Walkie Talkies) */}
+      <PillarServicesSection />
 
-      {/* 4. Concise Company Overview */}
-      <AboutPreview />
-
-      {/* 5. 6 Core Strengths */}
+      {/* 4. Trust Section: Why Choose Mextech? (14+ Years, Professional Installation, Genuine Products, After-Sales Support, Gurgaon/NCR) */}
       <WhyChooseUs />
+
+      {/* 5. Brands We Work With (CCTV, Intercom/EPABX, Security Alarm + Google Maps Verified Profile) */}
+      <BrandsSection />
 
       {/* 6. Recent Project Showcase */}
       <ProjectShowcase />
 
-      {/* 7. Authentic Customer Reviews */}
+      {/* 7. Authentic Customer Reviews with Google Maps Link */}
       <ReviewSlider />
 
       {/* 8. Quick Contact Form Section */}

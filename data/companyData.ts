@@ -1,17 +1,31 @@
-import { ServiceItem, ServiceDetailGroup, ProjectItem, ReviewItem, StrengthItem } from "../types";
+import { 
+  ServiceItem, 
+  ServiceDetailGroup, 
+  ProjectItem, 
+  ReviewItem, 
+  StrengthItem, 
+  BrandCategory, 
+  ServiceCategoryGroup 
+} from "../types";
 
 export const COMPANY_INFO = {
   name: "MEXTECH",
   fullName: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
   legalName: "Mextech Security System & IT Solution",
   tagline: "Smart Security. Reliable Technology. Complete Protection.",
-  established: "2021",
+  established: "2010",
+  experienceYears: "14+",
+  experienceTitle: "14+ Years Experience",
+  experienceSubtitle: "Security Surveillance & Networking",
   phone: "+91 85109 29404",
   phoneRaw: "+918510929404",
   phoneSecondary: "+91 79428 02620",
   email: "mextech.ncr@gmail.com",
   location: "Gurugram, Haryana",
   address: "Sector 23A / Om Vihar Rd, near Palam Vihar, Gurugram, Haryana 122017",
+  coverage: "Gurgaon / Delhi NCR Coverage",
+  googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
+  googleReviewRating: "4.9",
   hours: "9:00 AM – 9:00 PM (All 7 Days)",
   whatsappMessage: "Hello Mextech, I am interested in your CCTV / Security & IT Solutions. I would like to get a quote.",
   whatsappUrl: "https://wa.me/918510929404?text=Hello%20Mextech,%20I%20am%20interested%20in%20your%20CCTV%20/%20Security%20%26%20IT%20Solutions.%20I%20would%20like%20to%20get%20a%20quote.",
@@ -26,16 +40,189 @@ export const COMPANY_INFO = {
     "Corporate Headquarters"
   ],
   brandsDealt: [
-    "CP Plus",
     "Hikvision",
+    "CP Plus",
     "Dahua",
-    "Ezviz",
-    "D-Link",
+    "Matrix",
+    "NEC",
+    "CCL",
+    "Texecom",
+    "DSC",
+    "Securico",
+    "eSSL",
+    "ZKTeco",
     "Western Digital (WD Purple)",
-    "Seagate SkyHawk",
-    "TP-Link / Omada"
+    "TP-Link / Omada",
+    "D-Link"
   ]
 };
+
+// Top spotlight services requested for prominent top visibility
+export const SPOTLIGHT_SERVICES = [
+  { name: "Biometric", tag: "Face & Fingerprint", icon: "Fingerprint", link: "/services/access-control" },
+  { name: "Security Alarm", tag: "Burglar & Intrusion", icon: "BellRing", link: "/services/fire-security" },
+  { name: "Fire Alarm", tag: "Smoke & Heat Detectors", icon: "Flame", link: "/services/fire-security" },
+  { name: "Video Door Phone", tag: "Smart Intercom & Unlock", icon: "PhoneCall", link: "/services/video-door-phone" },
+  { name: "PA System", tag: "Commercial Audio & Paging", icon: "Megaphone", link: "/services/fire-security" },
+  { name: "Walkie-Talkies", tag: "Two-Way Radio Comms", icon: "Radio", link: "/services/access-control" },
+  { name: "CCTV Camera", tag: "4K IP, Analog & PTZ", icon: "Camera", link: "/services/cctv-surveillance" },
+];
+
+// The 4 Core Service Pillars requested by the user with exact sub-services
+export const HOMEPAGE_SERVICES_PILLARS = [
+  {
+    id: "cctv-surveillance",
+    title: "CCTV & Surveillance",
+    tagline: "4K Clarity • Smart Night Vision • Remote Live Monitoring",
+    description: "End-to-end video security solutions engineered with genuine brand equipment, concealed conduit wiring, and seamless mobile phone access.",
+    imageUrl: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
+    badge: "SURVEILLANCE",
+    detailLink: "/services/cctv-surveillance",
+    subServices: [
+      "IP CCTV",
+      "Analog CCTV",
+      "NVR/DVR",
+      "PTZ Camera",
+      "Wi-Fi/SIM Camera",
+      "CCTV AMC & Repair"
+    ],
+    brands: ["Hikvision", "CP Plus", "Dahua"]
+  },
+  {
+    id: "security-systems",
+    title: "Security Systems",
+    tagline: "Life Safety • Perimeter Defense • Smart Intercoms",
+    description: "Certified smoke detection, burglar intruder alarms, smart video door phones, and employee biometric time attendance systems.",
+    imageUrl: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    badge: "SECURITY & SAFETY",
+    detailLink: "/services/fire-security",
+    subServices: [
+      "Fire Alarm",
+      "Burglar Alarm",
+      "Video Door Phone",
+      "Access Control",
+      "Biometric Attendance",
+      "Intercom / EPABX"
+    ],
+    brands: ["Texecom", "DSC", "Securico", "Matrix", "NEC", "CCL"]
+  },
+  {
+    id: "automation",
+    title: "Automation",
+    tagline: "Smart Entry • Motorized Gates • Digital Locks",
+    description: "Intelligent barrier and access automation designed for smooth vehicular management, heavy-duty sliding gates, and keyless biometric entry.",
+    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    badge: "AUTOMATION",
+    detailLink: "/services/access-control",
+    subServices: [
+      "Boom Barrier",
+      "Sliding Gate Motor",
+      "Smart Door Lock",
+      "Home Automation"
+    ],
+    brands: ["eSSL", "ZKTeco", "Somfy", "Dorma"]
+  },
+  {
+    id: "it-networking",
+    title: "IT & Networking",
+    tagline: "Gigabit Cabling • Enterprise Wi-Fi • Server Racks",
+    description: "High-throughput network backbones, seamless zero-handoff Wi-Fi 6 coverage, organized server rack dressing, and pure copper Cat6 cabling.",
+    imageUrl: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80",
+    badge: "NETWORKING",
+    detailLink: "/services/networking",
+    subServices: [
+      "LAN/WAN",
+      "Wi-Fi",
+      "Enterprise Wi-Fi",
+      "Cat6 Cabling",
+      "Server Rack",
+      "Network Setup"
+    ],
+    brands: ["D-Link", "TP-Link / Omada", "Ubiquiti UniFi", "Cisco"]
+  }
+];
+
+// Specialized additional audio & communication systems
+export const SPECIALIZED_SYSTEMS = [
+  {
+    title: "PA System (Public Address)",
+    desc: "Commercial zone-based paging microphones, high-fidelity wall & ceiling speakers, and multi-channel background music amplifiers.",
+    imageUrl: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=800&q=80",
+    link: "/services/fire-security",
+    items: ["Zone Paging Consoles", "Ceiling & Horn Speakers", "Emergency Override Voice Alert"]
+  },
+  {
+    title: "Walkie-Talkies & Two-Way Radios",
+    desc: "Long-range UHF/VHF handheld transceivers for on-site security guards, warehouse logistics, facility managers, and multi-floor operations.",
+    imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+    link: "/services/access-control",
+    items: ["Long Battery Life", "Noise-Cancelling Mic", "Multi-Channel License-Free Radios"]
+  }
+];
+
+// Brands Section Data prominently organized by category
+export const BRANDS_DATA = {
+  title: "Brands We Work With",
+  subtitle: "Compatible / Genuine Products from Leading Brands",
+  googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
+  categories: [
+    {
+      category: "CCTV",
+      brands: ["Hikvision", "CP Plus", "Dahua"],
+      description: "HD Analog, IP 4K Cameras, NVRs, DVRs & ColorVu Night Vision",
+      accent: "from-sky-500/20 to-blue-500/5",
+      border: "border-sky-500/30"
+    },
+    {
+      category: "Intercom / EPABX",
+      brands: ["Matrix", "NEC", "CCL"],
+      description: "IP-PBX, Multi-line Office Intercoms & Video Door Systems",
+      accent: "from-indigo-500/20 to-purple-500/5",
+      border: "border-indigo-500/30"
+    },
+    {
+      category: "Security Alarm",
+      brands: ["Texecom", "DSC", "Securico", "Hikvision"],
+      description: "Perimeter Intrusion Panels, PIR Motion Sensors & Auto-Dialers",
+      accent: "from-amber-500/20 to-orange-500/5",
+      border: "border-amber-500/30"
+    }
+  ]
+};
+
+// Trust Section: "Why Choose Mextech?" grounded in verified business records
+export const WHY_CHOOSE_MESTECH_DATA = [
+  {
+    id: "trust-1",
+    title: "14+ Years Experience",
+    subtext: "Security Surveillance & Networking",
+    desc: "Over a decade of hands-on field experience installing and troubleshooting complex low-voltage security setups across residential and commercial sectors."
+  },
+  {
+    id: "trust-2",
+    title: "Professional Installation",
+    subtext: "Trained technical team",
+    desc: "Clean conduit laying, zero exposed cables, rigid PVC casing, optimal camera angle alignment, and tidy server rack dressing."
+  },
+  {
+    id: "trust-3",
+    title: "Genuine Products",
+    subtext: "Leading security & networking brands",
+    desc: "100% original hardware directly sourced from authorized brand channels with verifiable serial numbers and manufacturer warranties."
+  },
+  {
+    id: "trust-4",
+    title: "After-Sales Support",
+    subtext: "Installation + service + AMC",
+    desc: "We don't vanish after installation. Count on rapid on-call technical visits, component repairs, and structured Annual Maintenance Contracts."
+  },
+  {
+    id: "trust-5",
+    title: "Gurgaon / Delhi NCR Coverage",
+    subtext: "Local presence & rapid response",
+    desc: "Based in Sector 23A / Palam Vihar, Gurugram. Fast response times and same-day site visits across Gurgaon, Manesar, and Delhi NCR."
+  }
+];
 
 // All 13 services with dedicated high quality photography
 export const SERVICES_DATA: ServiceItem[] = [
@@ -259,6 +446,40 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Annual hydro-pressure testing, refill service & safety signage"
     ],
     equipment: ["2kg, 4kg, 6kg, 9kg ABC Extinguishers", "2kg & 4.5kg CO2 Cylinders", "Glow-in-the-Dark Location Signage"]
+  },
+  {
+    id: "walkie-talkies",
+    slug: "walkie-talkies",
+    detailSlug: "access-control",
+    title: "Walkie-Talkies & Two-Way Radios",
+    category: "access",
+    imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+    shortDesc: "High-power wireless handheld radios engineered for security staff, facility management, and instant multi-team communications.",
+    fullDesc: "Instant push-to-talk wireless transceivers designed for zero latency. Perfect for multi-story buildings, security checkpoints, construction sites, and logistics hubs where mobile reception is unreliable.",
+    features: [
+      "Long-range UHF/VHF license-free frequency channels",
+      "Heavy-duty shockproof and weather-resistant casing",
+      "Noise-cancelling crystal-clear voice transmission",
+      "High-capacity rechargeable battery for 18+ hours runtime"
+    ],
+    equipment: ["Motorola / Kenwood / Baofeng", "Multi-Unit Gang Desktop Chargers", "Heavy-Duty Acoustic Earpieces"]
+  },
+  {
+    id: "intercom-epabx",
+    slug: "intercom-epabx",
+    detailSlug: "video-door-phone",
+    title: "Intercom & EPABX Systems",
+    category: "access",
+    imageUrl: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80",
+    shortDesc: "Commercial PBX, digital key telephones, and multi-apartment intercom systems from Matrix, NEC, and CCL.",
+    fullDesc: "Seamless voice connectivity across departments and apartment units. We install analog and IP-PBX phone systems, guard-to-flat intercoms, auto-attendant IVR, and call recording backbones.",
+    features: [
+      "Multi-line digital intercom with guard console link",
+      "Auto-attendant interactive voice response (IVR)",
+      "Matrix, NEC & CCL genuine PBX switchboards",
+      "Concealed copper telephone cable distribution"
+    ],
+    equipment: ["Matrix COSEC / ETERNITY", "NEC SL2100 PBX", "CCL Digital Key Phones"]
   }
 ];
 

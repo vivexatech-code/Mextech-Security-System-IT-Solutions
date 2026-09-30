@@ -1,6 +1,6 @@
 import React from "react";
 import { Star, Quote, CheckCircle2 } from "lucide-react";
-import { REVIEWS_DATA } from "@/data/companyData";
+import { REVIEWS_DATA, COMPANY_INFO } from "@/data/companyData";
 
 export default function ReviewSlider() {
   return (
@@ -69,6 +69,19 @@ export default function ReviewSlider() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Google Reviews Verification Link */}
+        <div className="mt-12 text-center">
+          <a
+            href={COMPANY_INFO.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700 hover:border-sky-500/50 text-xs sm:text-sm font-semibold transition-all shadow-md"
+          >
+            <span>Read All Verified Customer Ratings &amp; Reviews on Google Maps</span>
+            <span className="text-amber-400 font-bold">★ 4.9 Rating</span>
+          </a>
         </div>
       </div>
     </section>

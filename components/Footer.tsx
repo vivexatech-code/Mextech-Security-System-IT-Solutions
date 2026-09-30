@@ -50,7 +50,7 @@ export default function Footer() {
                 </span>
                 <span className="inline-flex items-center gap-1 text-[11px] px-2 py-1 rounded bg-slate-900 border border-slate-800 text-slate-300">
                   <CheckCircle className="w-3 h-3 text-emerald-400" />
-                  Est. 2021
+                  14+ Years Experience
                 </span>
               </div>
             </div>

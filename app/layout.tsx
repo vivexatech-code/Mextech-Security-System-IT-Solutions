@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Mextech Security System & IT Solutions",
   },
   description:
-    "Professional CCTV camera installation, access control, fire alarms, networking, and IT solutions in Gurugram, Haryana. Established 2021. Authorized CP Plus, Hikvision, Dahua hardware with same-day site surveys.",
+    "Professional CCTV camera installation, access control, fire alarms, networking, and IT solutions in Gurugram, Haryana. 14+ years experience. Authorized Hikvision, CP Plus, Dahua hardware with same-day site surveys.",
   keywords: [
     "CCTV installation in Gurgaon",
     "CCTV camera installation Gurgaon",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mextech Security System & IT Solutions | CCTV & Security Gurugram",
-    description: "Reliable CCTV, Security & IT Solutions for Homes, Offices & Businesses in Gurugram. Established 2021.",
+    description: "Reliable CCTV, Security & IT Solutions for Homes, Offices & Businesses in Gurugram. 14+ Years Experience.",
     images: ["https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1200&q=80"],
   },
   icons: {
@@ -89,8 +89,8 @@ const jsonLd = {
   name: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
   image: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=800&q=80",
   description:
-    "Professional security and IT solutions company based in Gurugram, Haryana. Established 2021. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
-  foundingDate: "2021",
+    "Professional security and IT solutions company based in Gurugram, Haryana. 14+ years experience. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
+  foundingDate: "2010",
   telephone: "+918510929404",
   email: "mextech.ncr@gmail.com",
   address: {

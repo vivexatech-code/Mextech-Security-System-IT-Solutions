@@ -47,11 +47,29 @@ export interface ReviewItem {
   verified: boolean;
 }
 
+export interface BrandCategory {
+  category: string;
+  brands: string[];
+  description?: string;
+}
+
+export interface ServiceCategoryGroup {
+  id: string;
+  title: string;
+  tagline: string;
+  description: string;
+  imageUrl: string;
+  subServices: string[];
+  detailLink: string;
+  badge: string;
+}
+
 export interface StrengthItem {
   id: string;
   number: string;
   title: string;
   description: string;
+  subtext?: string;
   iconName?: string;
   badge?: string;
 }

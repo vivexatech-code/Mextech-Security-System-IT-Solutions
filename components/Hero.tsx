@@ -29,7 +29,7 @@ export default function Hero() {
             {/* Top Pill Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold tracking-wide shadow-sm">
               <span className="flex h-2 w-2 rounded-full bg-sky-400 animate-pulse" />
-              <span>Gurugram&apos;s Trusted Security &amp; IT Specialists Since {COMPANY_INFO.established}</span>
+              <span>14+ Years Experience • Security Surveillance &amp; Networking • Gurugram &amp; Delhi NCR</span>
             </div>
 
             {/* Main Headline */}
@@ -41,6 +41,26 @@ export default function Hero() {
               <br />
               Complete Peace of Mind.
             </h1>
+
+            {/* Quick Services Spotlight Bar */}
+            <div className="flex flex-wrap items-center gap-2 pt-1 pb-1">
+              {[
+                "Biometric",
+                "Security Alarm",
+                "Fire Alarm",
+                "Video Door Phone",
+                "PA System",
+                "Walkie-Talkies",
+                "CCTV Camera"
+              ].map((svc) => (
+                <span
+                  key={svc}
+                  className="px-2.5 py-1 rounded-md bg-slate-900/90 border border-slate-700/80 text-[11px] font-semibold text-slate-200"
+                >
+                  {svc}
+                </span>
+              ))}
+            </div>
 
             {/* Concise Value Description */}
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed font-normal">
@@ -55,7 +75,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />
-                <span>Authorized CP Plus, Hikvision &amp; Dahua</span>
+                <span>Authorized Hikvision, CP Plus &amp; Dahua</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />

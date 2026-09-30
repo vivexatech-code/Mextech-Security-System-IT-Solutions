@@ -22,7 +22,7 @@ import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "About Us | MEXTECH Security System & IT Solutions Gurugram",
   description:
-    "Learn about Mextech Security System & IT Solutions, founded in 2021 in Gurugram, Haryana. Our mission, values, genuine hardware standards, and turnkey low-voltage engineering excellence.",
+    "Learn about Mextech Security System & IT Solutions, with 14+ years experience in Gurugram, Haryana. Our mission, values, genuine hardware standards, and turnkey low-voltage engineering excellence.",
 };
 
 const VALUES = [

@@ -107,7 +107,7 @@ export default function Header() {
                   MEXTECH
                 </span>
                 <span className="text-[10px] uppercase font-semibold tracking-wider px-1.5 py-0.5 rounded bg-sky-500/10 text-sky-400 border border-sky-500/20">
-                  Est. 2021
+                  14+ Yrs Exp
                 </span>
               </div>
               <span className="text-[11px] font-medium tracking-wide text-slate-400 uppercase">
