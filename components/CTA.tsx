@@ -14,18 +14,18 @@ export default function CTA() {
           <div className="space-y-3 text-center lg:text-left max-w-2xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold uppercase tracking-wider">
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span>Prompt Gurugram Service</span>
+              <span>PAN INDIA SERVICE</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-heading tracking-tight">
               Ready to Upgrade Your Security &amp; Network?
             </h2>
             <p className="text-base text-slate-300">
-              Schedule a free on-site assessment anywhere in Gurugram. Receive an itemized equipment quote backed by 100% genuine products and 1-3 year manufacturer warranty.
+              Schedule a free site assessment and get professional security &amp; IT solutions with Pan India service coverage. Receive an itemized equipment quote backed by 100% genuine products and 1–3 year manufacturer warranty.
             </p>
             <div className="flex items-center justify-center lg:justify-start gap-4 text-xs text-slate-400 pt-1">
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5 text-sky-400" />
-                <span>Gurugram, Manesar &amp; Delhi NCR</span>
+                <span>{COMPANY_INFO.coverageShort} • Primary: {COMPANY_INFO.primaryLocation}</span>
               </div>
               <span>•</span>
               <span>Available 9 AM – 9 PM (7 Days)</span>
@@ -40,13 +40,21 @@ export default function CTA() {
               <span>Schedule Free Site Survey</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
-            <a
-              href={`tel:${COMPANY_INFO.phoneRaw}`}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 hover:border-slate-600 font-semibold text-base transition-all"
-            >
-              <Phone className="w-4 h-4 text-sky-400" />
-              <span>{COMPANY_INFO.phone}</span>
-            </a>
+            <div className="w-full sm:w-auto flex flex-col items-stretch sm:items-center gap-2">
+              <a
+                href={`tel:${COMPANY_INFO.phoneRaw}`}
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 hover:border-slate-600 font-semibold text-base transition-all"
+              >
+                <Phone className="w-4 h-4 text-sky-400" />
+                <span>Call Us: {COMPANY_INFO.phone}</span>
+              </a>
+              <a
+                href={`tel:${COMPANY_INFO.phoneSecondaryRaw}`}
+                className="text-center text-xs text-slate-400 hover:text-sky-400 transition-colors"
+              >
+                Alternate: {COMPANY_INFO.phoneSecondary}
+              </a>
+            </div>
           </div>
         </div>
       </div>

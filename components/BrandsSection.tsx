@@ -100,6 +100,22 @@ export default function BrandsSection() {
           ))}
         </div>
 
+        <div className="space-y-3">
+          <p className="text-center text-xs uppercase tracking-wider font-semibold text-slate-400">
+            Deals with
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            {COMPANY_INFO.brandsDealt.map((brand) => (
+              <span
+                key={brand}
+                className="px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-xs font-semibold text-slate-300"
+              >
+                {brand}
+              </span>
+            ))}
+          </div>
+        </div>
+
         {/* Google Maps Business Profile & Reviews Card */}
         <div className="rounded-2xl bg-slate-900/80 border border-slate-800 p-6 sm:p-8 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5 text-left w-full lg:w-auto">
@@ -145,9 +161,9 @@ export default function BrandsSection() {
                 <span className="text-slate-400">• Verified Customer Reviews on Google</span>
               </div>
 
-              <p className="text-xs text-slate-400 flex items-center gap-1.5 pt-0.5">
-                <MapPin className="w-3.5 h-3.5 text-sky-400 shrink-0" />
-                <span>Sector 23A / Om Vihar Rd, near Palam Vihar, Gurugram, Haryana 122017</span>
+              <p className="text-xs text-slate-400 flex items-start gap-1.5 pt-0.5">
+                <MapPin className="w-3.5 h-3.5 text-sky-400 shrink-0 mt-0.5" />
+                <span>{COMPANY_INFO.address}</span>
               </p>
             </div>
           </div>

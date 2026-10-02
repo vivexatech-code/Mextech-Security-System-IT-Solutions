@@ -8,33 +8,16 @@ import {
   Clock, 
   MessageSquare, 
   ShieldCheck, 
-  CheckCircle2,
-  Building2,
   Navigation
 } from "lucide-react";
 import { COMPANY_INFO } from "@/data/companyData";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | MEXTECH Security System & IT Solutions Gurugram",
+  title: "Contact Us | MEXTECH Security System & IT Solutions",
   description:
-    "Contact Mextech in Gurugram, Haryana. Schedule a free on-site CCTV survey, request quotation, or call us at +91 85109 29404. Open 7 days a week from 9 AM to 9 PM.",
+    "Contact Mextech for CCTV, security and IT solutions with Pan India service coverage. Primary office in Gurugram / Gurgaon. Call +91 85109 29404 or alternate +91 80021 37438. Open 7 days, 9 AM to 9 PM.",
 };
-
-const SERVICE_AREAS = [
-  "Sector 23 / 23A / Om Vihar",
-  "Palam Vihar & Chauma",
-  "DLF Phase 1, 2, 3, 4 & 5",
-  "Cyber City & DLF Cyber Hub",
-  "Udyog Vihar (Phases 1-5)",
-  "Golf Course Road & Extension",
-  "Sohna Road & Subhash Chowk",
-  "MG Road & IFFCO Chowk",
-  "Sushant Lok 1, 2 & 3",
-  "IMT Manesar & KMP Expressway",
-  "Sector 14, 15, 31, 48, 56, 57",
-  "Delhi NCR & Dwarka Expressway",
-];
 
 export default function ContactPage() {
   return (
@@ -67,7 +50,7 @@ export default function ContactPage() {
               <div className="space-y-3">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-semibold uppercase tracking-wider">
                   <ShieldCheck className="w-3.5 h-3.5" />
-                  <span>Gurugram Office</span>
+                  <span>Gurugram Office • Pan India Service</span>
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white font-heading">
                   Quick Communication
@@ -96,21 +79,18 @@ export default function ContactPage() {
                       href={`tel:${COMPANY_INFO.phoneRaw}`}
                       className="text-lg font-bold text-sky-400 hover:text-sky-300 transition-colors"
                     >
-                      {COMPANY_INFO.phone}
+                      Call Us: {COMPANY_INFO.phone}
                     </a>
                     <span className="text-xs text-slate-400 ml-2">(Primary / WhatsApp)</span>
                   </div>
-                  {COMPANY_INFO.phoneSecondary && (
-                    <div>
-                      <a
-                        href={`tel:${COMPANY_INFO.phoneSecondary.replace(/\s+/g, "")}`}
-                        className="text-sm text-slate-300 hover:text-white transition-colors"
-                      >
-                        {COMPANY_INFO.phoneSecondary}
-                      </a>
-                      <span className="text-xs text-slate-400 ml-2">(Alternate Support)</span>
-                    </div>
-                  )}
+                  <div>
+                    <a
+                      href={`tel:${COMPANY_INFO.phoneSecondaryRaw}`}
+                      className="text-sm text-slate-300 hover:text-white transition-colors"
+                    >
+                      Alternate: {COMPANY_INFO.phoneSecondary}
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -151,7 +131,9 @@ export default function ContactPage() {
                     <div>
                       <span className="text-xs uppercase font-bold text-slate-400">Office Location</span>
                       <p className="text-sm text-white font-medium mt-0.5 leading-snug">
-                        {COMPANY_INFO.address}
+                        {COMPANY_INFO.addressLine1}
+                        <br />
+                        {COMPANY_INFO.addressLine2}
                       </p>
                     </div>
                   </div>
@@ -181,20 +163,30 @@ export default function ContactPage() {
               </div>
 
               {/* Areas Covered */}
-              <div className="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-3">
-                <div className="flex items-center gap-2 text-xs font-bold text-slate-300 uppercase tracking-wider">
-                  <Navigation className="w-4 h-4 text-sky-400" />
-                  <span>Gurugram Sectors Served Daily</span>
+              <div className="p-6 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-4">
+                <div className="space-y-1.5">
+                  <div className="flex items-center gap-2 text-xs font-bold text-slate-300 uppercase tracking-wider">
+                    <Navigation className="w-4 h-4 text-sky-400" />
+                    <span>Pan India Service Coverage</span>
+                  </div>
+                  <p className="text-xs text-slate-400 leading-relaxed">
+                    {COMPANY_INFO.coverageSummary}
+                  </p>
                 </div>
-                <div className="flex flex-wrap gap-1.5 text-xs text-slate-400">
-                  {SERVICE_AREAS.map((area) => (
-                    <span
-                      key={area}
-                      className="px-2 py-1 rounded bg-slate-950 border border-slate-800 text-[11px]"
-                    >
-                      {area}
-                    </span>
-                  ))}
+                <div className="space-y-2">
+                  <p className="text-[11px] font-bold text-slate-300 uppercase tracking-wider">
+                    Primary Local Service Area — {COMPANY_INFO.primaryLocation}
+                  </p>
+                  <div className="flex flex-wrap gap-1.5 text-xs text-slate-400">
+                    {COMPANY_INFO.localCoverageAreas.map((area) => (
+                      <span
+                        key={area}
+                        className="px-2 py-1 rounded bg-slate-950 border border-slate-800 text-[11px]"
+                      >
+                        {area}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

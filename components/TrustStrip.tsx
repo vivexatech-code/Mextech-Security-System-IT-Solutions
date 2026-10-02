@@ -27,7 +27,7 @@ export default function TrustStrip() {
             {COMPANY_INFO.brandsDealt.map((brand) => (
               <div
                 key={brand}
-                className="px-3.5 py-1.5 rounded-lg bg-slate-900/60 border border-slate-800/80 text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors"
+                className="px-2.5 py-1.5 rounded-lg bg-slate-900/60 border border-slate-800/80 text-[11px] sm:text-xs font-semibold text-slate-300 hover:text-white hover:border-slate-700 transition-colors whitespace-nowrap"
               >
                 {brand}
               </div>
@@ -39,7 +39,7 @@ export default function TrustStrip() {
         <div className="mt-8 pt-8 border-t border-slate-900/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div className="text-xs text-slate-400 flex items-center gap-2">
             <Building2 className="w-4 h-4 text-sky-400 shrink-0" />
-            <span className="font-semibold text-slate-300">Premises We Protect in Gurugram:</span>
+            <span className="font-semibold text-slate-300">{COMPANY_INFO.premisesHeading}:</span>
           </div>
           <div className="flex flex-wrap gap-2 text-[11px] text-slate-400">
             {COMPANY_INFO.premises.map((premise) => (

@@ -12,7 +12,7 @@ export default function ReviewSlider() {
             <span>Customer Testimonials</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-heading tracking-tight">
-            Verified Experiences from Gurugram
+            Verified Experiences from Gurugram Clients
           </h2>
           <p className="text-base text-slate-400">
             Real feedback from homeowners, corporate administrators, and facility managers across Haryana.

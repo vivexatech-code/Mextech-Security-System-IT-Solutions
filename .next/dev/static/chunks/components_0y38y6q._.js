@@ -252,6 +252,38 @@ function BrandsSection() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "space-y-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-center text-xs uppercase tracking-wider font-semibold text-slate-400",
+                                children: "Deals with"
+                            }, void 0, false, {
+                                fileName: "[project]/components/BrandsSection.tsx",
+                                lineNumber: 104,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-wrap items-center justify-center gap-2",
+                                children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].brandsDealt.map((brand)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-xs font-semibold text-slate-300",
+                                        children: brand
+                                    }, brand, false, {
+                                        fileName: "[project]/components/BrandsSection.tsx",
+                                        lineNumber: 109,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/components/BrandsSection.tsx",
+                                lineNumber: 107,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/BrandsSection.tsx",
+                        lineNumber: 103,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-2xl bg-slate-900/80 border border-slate-800 p-6 sm:p-8 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -268,7 +300,7 @@ function BrandsSection() {
                                                     d: "M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.66v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.15z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BrandsSection.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 125,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -276,7 +308,7 @@ function BrandsSection() {
                                                     d: "M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.34 24 12 24z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BrandsSection.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 129,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -284,7 +316,7 @@ function BrandsSection() {
                                                     d: "M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.17 0 9.97 0 12s.45 3.83 1.25 5.42l4.03-3.15z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BrandsSection.tsx",
-                                                    lineNumber: 117,
+                                                    lineNumber: 133,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -292,18 +324,18 @@ function BrandsSection() {
                                                     d: "M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.34 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/BrandsSection.tsx",
-                                                    lineNumber: 121,
+                                                    lineNumber: 137,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/BrandsSection.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/BrandsSection.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 122,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -317,7 +349,7 @@ function BrandsSection() {
                                                         children: "Mextech Security System & IT Solution"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 146,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -325,13 +357,13 @@ function BrandsSection() {
                                                         children: "Verified Business"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 149,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/BrandsSection.tsx",
-                                                lineNumber: 129,
+                                                lineNumber: 145,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -345,12 +377,12 @@ function BrandsSection() {
                                                                 className: "w-3.5 h-3.5 fill-current"
                                                             }, i, false, {
                                                                 fileName: "[project]/components/BrandsSection.tsx",
-                                                                lineNumber: 141,
+                                                                lineNumber: 157,
                                                                 columnNumber: 21
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 155,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -358,7 +390,7 @@ function BrandsSection() {
                                                         children: "4.9 / 5.0 Rating"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 160,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -366,48 +398,48 @@ function BrandsSection() {
                                                         children: "• Verified Customer Reviews on Google"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 161,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/BrandsSection.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 154,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-xs text-slate-400 flex items-center gap-1.5 pt-0.5",
+                                                className: "text-xs text-slate-400 flex items-start gap-1.5 pt-0.5",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                        className: "w-3.5 h-3.5 text-sky-400 shrink-0"
+                                                        className: "w-3.5 h-3.5 text-sky-400 shrink-0 mt-0.5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 165,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "Sector 23A / Om Vihar Rd, near Palam Vihar, Gurugram, Haryana 122017"
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].address
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BrandsSection.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 166,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/BrandsSection.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 164,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BrandsSection.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 144,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BrandsSection.tsx",
-                                lineNumber: 105,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -423,20 +455,20 @@ function BrandsSection() {
                                                 children: "View On Google Maps & Reviews"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BrandsSection.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 178,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$external$2d$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExternalLink$3e$__["ExternalLink"], {
                                                 className: "w-4 h-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/BrandsSection.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 179,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/BrandsSection.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 172,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -446,24 +478,24 @@ function BrandsSection() {
                                             children: "Request Brand Quote"
                                         }, void 0, false, {
                                             fileName: "[project]/components/BrandsSection.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 185,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/BrandsSection.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 181,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/BrandsSection.tsx",
-                                lineNumber: 155,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/BrandsSection.tsx",
-                        lineNumber: 104,
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this)
                 ]
@@ -609,7 +641,7 @@ function ContactForm() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm text-slate-400 mt-1",
-                                children: "Fill in your details below. Our field engineering team in Gurugram responds promptly within 1-2 hours."
+                                children: "Fill in your details below. Our field engineering team responds promptly. Pan India service coverage with dedicated support in Gurugram / Gurgaon."
                             }, void 0, false, {
                                 fileName: "[project]/components/ContactForm.tsx",
                                 lineNumber: 83,
@@ -1250,8 +1282,12 @@ function Hero() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "14+ Years Experience • Security Surveillance & Networking • Gurugram & Delhi NCR"
-                                        }, void 0, false, {
+                                            children: [
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].experienceTitle,
+                                                " • Security Surveillance & Networking • ",
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].coverageShort
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/components/Hero.tsx",
                                             lineNumber: 32,
                                             columnNumber: 15
@@ -1317,7 +1353,7 @@ function Hero() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed font-normal",
-                                    children: "High-definition 4K CCTV surveillance, smart biometric access, commercial fire alarms, and enterprise Wi-Fi networking. Engineered with 100% genuine products, neat concealed cabling, and guaranteed on-site technical support across Gurugram."
+                                    children: "High-definition 4K CCTV surveillance, smart biometric access, commercial fire alarms, and enterprise Wi-Fi networking. Engineered with 100% genuine products, neat concealed cabling, and on-site technical support with Pan India service coverage."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hero.tsx",
                                     lineNumber: 66,
@@ -1360,7 +1396,7 @@ function Hero() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Authorized Hikvision, CP Plus & Dahua"
+                                                    children: "Authorized Hikvision, Honeywell, Prama & more"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Hero.tsx",
                                                     lineNumber: 78,
@@ -1406,7 +1442,7 @@ function Hero() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Same-day survey across all Gurugram sectors"
+                                                    children: "Site survey and service available across India"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Hero.tsx",
                                                     lineNumber: 86,
@@ -1498,8 +1534,12 @@ function Hero() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Sector 23A / Palam Vihar, Gurugram"
-                                                }, void 0, false, {
+                                                    children: [
+                                                        __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].primaryLocation,
+                                                        " • ",
+                                                        __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].coverageShort
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/Hero.tsx",
                                                     lineNumber: 112,
                                                     columnNumber: 17
@@ -1683,7 +1723,7 @@ function Hero() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "text-2xl font-bold text-emerald-400 font-heading",
-                                                            children: "Same-Day"
+                                                            children: "Pan India"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Hero.tsx",
                                                             lineNumber: 167,
@@ -1691,7 +1731,7 @@ function Hero() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "text-[11px] font-medium text-slate-400 uppercase tracking-wide mt-0.5",
-                                                            children: "Site Visit"
+                                                            children: "Coverage"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Hero.tsx",
                                                             lineNumber: 168,
@@ -1745,7 +1785,7 @@ function Hero() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "text-[11px] text-slate-400",
-                                                    children: "CP Plus, Hikvision & Dahua Authorized"
+                                                    children: "Hikvision, Honeywell, Prama & Partners"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Hero.tsx",
                                                     lineNumber: 182,
@@ -2492,8 +2532,12 @@ function WhyChooseUs() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-base sm:text-lg text-slate-300 leading-relaxed font-normal",
-                            children: "Ground-level engineering expertise, certified brand hardware, and authentic after-sales commitment across Gurugram and Delhi NCR."
-                        }, void 0, false, {
+                            children: [
+                                "Ground-level engineering expertise, certified brand hardware, and authentic after-sales commitment with Pan India service coverage and dedicated support in ",
+                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].primaryLocation,
+                                "."
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/WhyChooseUs.tsx",
                             lineNumber: 40,
                             columnNumber: 11
@@ -2667,7 +2711,7 @@ function WhyChooseUs() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: [
-                                                        "Call ",
+                                                        "Call Us: ",
                                                         __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
                                                     ]
                                                 }, void 0, true, {
@@ -2681,6 +2725,18 @@ function WhyChooseUs() {
                                             lineNumber: 100,
                                             columnNumber: 15
                                         }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondaryRaw}`,
+                                            className: "w-full text-center text-xs text-slate-400 hover:text-sky-400 transition-colors",
+                                            children: [
+                                                "Alternate: ",
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondary
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/WhyChooseUs.tsx",
+                                            lineNumber: 107,
+                                            columnNumber: 15
+                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/contact",
                                             className: "w-full inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs font-semibold border border-slate-700 transition-colors",
@@ -2689,20 +2745,20 @@ function WhyChooseUs() {
                                                     children: "Book On-Site Survey"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseUs.tsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 117,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                     className: "w-3.5 h-3.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseUs.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 118,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/WhyChooseUs.tsx",
-                                            lineNumber: 107,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this)
                                     ]

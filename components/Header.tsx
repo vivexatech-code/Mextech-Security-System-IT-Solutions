@@ -60,7 +60,14 @@ export default function Header() {
               className="flex items-center gap-1.5 hover:text-sky-400 transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-sky-400" />
-              <span>{COMPANY_INFO.phone}</span>
+              <span>Call Us: {COMPANY_INFO.phone}</span>
+            </a>
+            <a 
+              href={`tel:${COMPANY_INFO.phoneSecondaryRaw}`}
+              className="flex items-center gap-1.5 hover:text-sky-400 transition-colors"
+            >
+              <Phone className="w-3.5 h-3.5 text-sky-400" />
+              <span>Alternate: {COMPANY_INFO.phoneSecondary}</span>
             </a>
             <a 
               href={`mailto:${COMPANY_INFO.email}`}
@@ -107,7 +114,7 @@ export default function Header() {
                   MEXTECH
                 </span>
                 <span className="text-[10px] uppercase font-semibold tracking-wider px-1.5 py-0.5 rounded bg-sky-500/10 text-sky-400 border border-sky-500/20">
-                  14+ Yrs Exp
+                  {COMPANY_INFO.experienceTitle}
                 </span>
               </div>
               <span className="text-[11px] font-medium tracking-wide text-slate-400 uppercase">
@@ -229,9 +236,13 @@ export default function Header() {
                 <span>WhatsApp</span>
               </a>
             </div>
+            <div className="flex flex-col items-center gap-1 text-[11px] text-slate-400">
+              <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="hover:text-sky-400">Call Us: {COMPANY_INFO.phone}</a>
+              <a href={`tel:${COMPANY_INFO.phoneSecondaryRaw}`} className="hover:text-sky-400">Alternate: {COMPANY_INFO.phoneSecondary}</a>
+            </div>
 
             <div className="text-center pt-2 text-xs text-slate-400">
-              <p>{COMPANY_INFO.address}</p>
+              <p className="leading-snug">{COMPANY_INFO.addressLine1}<br />{COMPANY_INFO.addressLine2}</p>
               <p className="mt-0.5 text-slate-500">{COMPANY_INFO.hours}</p>
             </div>
           </div>

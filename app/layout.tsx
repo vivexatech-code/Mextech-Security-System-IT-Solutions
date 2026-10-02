@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
+import { COMPANY_INFO } from "@/data/companyData";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -19,15 +20,16 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mextech Security System & IT Solutions | CCTV & Security in Gurugram",
+    default: "Mextech Security System & IT Solutions | CCTV, Security & IT Across India",
     template: "%s | Mextech Security System & IT Solutions",
   },
   description:
-    "Professional CCTV camera installation, access control, fire alarms, networking, and IT solutions in Gurugram, Haryana. 14+ years experience. Authorized Hikvision, CP Plus, Dahua hardware with same-day site surveys.",
+    "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Authorized Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
   keywords: [
     "CCTV installation in Gurgaon",
     "CCTV camera installation Gurgaon",
     "Security system Gurgaon",
+    "Pan India CCTV service",
     "CCTV repair Gurgaon",
     "NVR DVR installation Gurugram",
     "Access control Gurgaon",
@@ -53,9 +55,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "https://mextechsecurity.com",
-    title: "Mextech Security System & IT Solutions | Gurugram, Haryana",
+    title: "Mextech Security System & IT Solutions | Pan India Service",
     description:
-      "Reliable CCTV, Security & IT Solutions for Homes, Offices & Businesses in Gurugram. 100% Genuine products, neat concealed cabling and dedicated after-sales support.",
+      "Reliable CCTV, Security & IT Solutions for homes, offices and businesses across India. Primary local office in Gurugram / Gurgaon. 100% genuine products and dedicated after-sales support.",
     siteName: "Mextech Security System & IT Solutions",
     images: [
       {
@@ -68,8 +70,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mextech Security System & IT Solutions | CCTV & Security Gurugram",
-    description: "Reliable CCTV, Security & IT Solutions for Homes, Offices & Businesses in Gurugram. 14+ Years Experience.",
+    title: "Mextech Security System & IT Solutions | CCTV, Security & IT Across India",
+    description: "Reliable CCTV, Security & IT Solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Serving since 2022.",
     images: ["/assets/main.jpg"],
   },
   icons: {
@@ -89,14 +91,14 @@ const jsonLd = {
   name: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
   image: "/assets/main.jpg",
   description:
-    "Professional security and IT solutions company based in Gurugram, Haryana. 14+ years experience. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
-  foundingDate: "2010",
-  telephone: "+918510929404",
-  email: "mextech.ncr@gmail.com",
+    "Professional security and IT solutions company based in Gurugram / Gurgaon with Pan India service coverage. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
+  foundingDate: COMPANY_INFO.established,
+  telephone: [COMPANY_INFO.phoneRaw, COMPANY_INFO.phoneSecondaryRaw],
+  email: COMPANY_INFO.email,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Sector 23A / Palam Vihar Extension",
-    addressLocality: "Gurugram",
+    streetAddress: "Shop No-4, Om Vihar Road, Near Bikaner Sweets, Palam Vihar Extension",
+    addressLocality: "Gurgaon",
     addressRegion: "Haryana",
     postalCode: "122017",
     addressCountry: "IN",
@@ -115,7 +117,7 @@ const jsonLd = {
     },
   ],
   priceRange: "₹₹",
-  areaServed: ["Gurugram", "Gurgaon", "Manesar", "Delhi NCR", "Sohna", "Faridabad"],
+  areaServed: ["IN", "India", "Gurugram", "Gurgaon"],
 };
 
 export default function RootLayout({

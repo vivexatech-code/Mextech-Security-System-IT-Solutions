@@ -22,14 +22,14 @@ import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "About Us | MEXTECH Security System & IT Solutions Gurugram",
   description:
-    "Learn about Mextech Security System & IT Solutions, with 14+ years experience in Gurugram, Haryana. Our mission, values, genuine hardware standards, and turnkey low-voltage engineering excellence.",
+    "Learn about Mextech Security System & IT Solutions, serving since 2022 from Gurugram / Gurgaon with Pan India service coverage. CCTV, networking, access control, and genuine hardware standards.",
 };
 
 const VALUES = [
   {
     icon: <ShieldCheck className="w-6 h-6 text-sky-400" />,
     title: "100% Genuine Hardware",
-    desc: "We exclusively install authorized equipment from tier-1 manufacturers: CP Plus, Hikvision, Dahua, D-Link, and WD Purple with full manufacturer warranties.",
+    desc: "We exclusively install authorized equipment from tier-1 manufacturers including Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple with full manufacturer warranties.",
   },
   {
     icon: <Wrench className="w-6 h-6 text-emerald-400" />,
@@ -38,8 +38,8 @@ const VALUES = [
   },
   {
     icon: <Clock className="w-6 h-6 text-amber-400" />,
-    title: "Same-Day Gurugram Dispatch",
-    desc: "Local field technicians based in Gurugram guarantee rapid site inspections and priority breakdown support within hours of notification.",
+    title: "Dedicated Gurugram Support",
+    desc: "Local field technicians based in Gurugram / Gurgaon, with site survey and service available across India and priority breakdown support from our primary operations hub.",
   },
   {
     icon: <Sparkles className="w-6 h-6 text-purple-400" />,
@@ -52,7 +52,7 @@ const WORKFLOW = [
   {
     step: "01",
     title: "Comprehensive Site Survey",
-    desc: "Our field engineer visits your home, office, or plant in Gurugram to calculate optical viewing angles, focal lengths, illumination, and cable pathways.",
+    desc: "Our field engineer visits your home, office, or plant to calculate optical viewing angles, focal lengths, illumination, and cable pathways — with Pan India service coverage.",
   },
   {
     step: "02",
@@ -92,7 +92,7 @@ export default function AboutPage() {
               About MEXTECH
             </h1>
             <p className="text-lg text-slate-300 leading-relaxed">
-              Gurugram&apos;s specialist in low-voltage electronic security and enterprise IT networking. Protecting residential villas, corporate offices, and industrial hubs across Haryana since {COMPANY_INFO.established}.
+              Specialist in low-voltage electronic security and enterprise IT networking since {COMPANY_INFO.established}. Protecting homes, offices, and industrial sites across India, with dedicated local support in {COMPANY_INFO.primaryLocation}.
             </p>
           </div>
         </div>
@@ -171,7 +171,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-2xl font-bold text-white font-heading">Our Mission</h3>
               <p className="text-slate-300 text-sm leading-relaxed">
-                To deliver uncompromising protection to families and businesses across Gurugram and Haryana by integrating cutting-edge surveillance optics, biometric access, and high-concurrency enterprise networking into durable, clean, and user-friendly systems.
+                To deliver uncompromising protection to families and businesses across India by integrating cutting-edge surveillance optics, biometric access, and high-concurrency enterprise networking into durable, clean, and user-friendly systems.
               </p>
             </div>
 
@@ -182,7 +182,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-2xl font-bold text-white font-heading">Our Vision</h3>
               <p className="text-slate-300 text-sm leading-relaxed">
-                To remain Gurugram&apos;s most trusted and technically proficient low-voltage engineering team, recognized for zero-defect installation craftsmanship, immediate breakdown turnaround, and client-first after-sales care.
+                To remain a trusted and technically proficient low-voltage engineering team, recognized for zero-defect installation craftsmanship, reliable breakdown turnaround, and client-first after-sales care across India.
               </p>
             </div>
           </div>

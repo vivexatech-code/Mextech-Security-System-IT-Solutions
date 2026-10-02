@@ -248,8 +248,10 @@ function Footer() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-slate-400 text-xs leading-relaxed",
                                             children: [
-                                                "Gurugram's trusted low-voltage security and enterprise IT infrastructure specialist since ",
+                                                "Trusted low-voltage security and enterprise IT infrastructure specialist since ",
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].established,
+                                                ". Pan India service coverage with dedicated local support in ",
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].primaryLocation,
                                                 ". Delivering 100% genuine products, precision concealed cabling, and dedicated after-sales AMC support."
                                             ]
                                         }, void 0, true, {
@@ -287,7 +289,7 @@ function Footer() {
                                                             lineNumber: 52,
                                                             columnNumber: 19
                                                         }, this),
-                                                        "14+ Years Experience"
+                                                        __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].experienceTitle
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
@@ -622,18 +624,39 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                             className: "text-xs uppercase font-semibold text-slate-300 tracking-wider mb-2",
-                                            children: "Gurugram Coverage"
+                                            children: "Pan India Service Coverage"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
                                             lineNumber: 129,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-[11px] text-slate-400 leading-relaxed",
-                                            children: "Palam Vihar, Sector 23/23A, DLF Phase 1-5, Cyber City, Udyog Vihar, Golf Course Ext., Sohna Road, Sushant Lok, MG Road, Manesar, and Delhi NCR."
+                                            className: "text-[11px] text-slate-400 leading-relaxed mb-3",
+                                            children: "Security & IT solutions available across India."
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
                                             lineNumber: 132,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "text-xs uppercase font-semibold text-slate-300 tracking-wider mb-2",
+                                            children: "Primary Local Service Area"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.tsx",
+                                            lineNumber: 135,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-[11px] text-slate-400 leading-relaxed",
+                                            children: [
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].primaryLocation,
+                                                ": ",
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].localCoverageAreas.join(", "),
+                                                "."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.tsx",
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -650,7 +673,7 @@ function Footer() {
                                             children: "Contact Helpdesk"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 145,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -663,46 +686,78 @@ function Footer() {
                                                             className: "w-4 h-4 text-sky-400 mt-0.5 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 144,
+                                                            lineNumber: 150,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "text-slate-300 leading-snug",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].address
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine1,
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                    fileName: "[project]/components/Footer.tsx",
+                                                                    lineNumber: 153,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine2
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 145,
+                                                            lineNumber: 151,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 149,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2.5",
+                                                    className: "flex items-start gap-2.5",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                            className: "w-4 h-4 text-sky-400 shrink-0"
+                                                            className: "w-4 h-4 text-sky-400 shrink-0 mt-0.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 158,
                                                             columnNumber: 19
                                                         }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneRaw}`,
-                                                            className: "text-slate-200 hover:text-sky-400 transition-colors font-medium",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
-                                                        }, void 0, false, {
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex flex-col gap-1",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneRaw}`,
+                                                                    className: "text-slate-200 hover:text-sky-400 transition-colors font-medium",
+                                                                    children: [
+                                                                        "Call Us: ",
+                                                                        __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/Footer.tsx",
+                                                                    lineNumber: 160,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondaryRaw}`,
+                                                                    className: "text-slate-300 hover:text-sky-400 transition-colors",
+                                                                    children: [
+                                                                        "Alternate: ",
+                                                                        __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondary
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/Footer.tsx",
+                                                                    lineNumber: 163,
+                                                                    columnNumber: 21
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 149,
+                                                            lineNumber: 159,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 147,
+                                                    lineNumber: 157,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -712,7 +767,7 @@ function Footer() {
                                                             className: "w-4 h-4 text-sky-400 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 169,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -721,13 +776,13 @@ function Footer() {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 155,
+                                                            lineNumber: 170,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 153,
+                                                    lineNumber: 168,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -737,7 +792,7 @@ function Footer() {
                                                             className: "w-4 h-4 text-slate-500 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 175,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -745,19 +800,19 @@ function Footer() {
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].hours
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 161,
+                                                            lineNumber: 176,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 174,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -772,31 +827,31 @@ function Footer() {
                                                         className: "w-4 h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 172,
+                                                        lineNumber: 187,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Chat on WhatsApp"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 173,
+                                                        lineNumber: 188,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer.tsx",
-                                                lineNumber: 166,
+                                                lineNumber: 181,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 165,
+                                            lineNumber: 180,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -826,7 +881,7 @@ function Footer() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 198,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -838,7 +893,7 @@ function Footer() {
                                             children: "Privacy Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 202,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -847,7 +902,7 @@ function Footer() {
                                             children: "Terms of Service"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 208,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -856,24 +911,24 @@ function Footer() {
                                             children: "Warranty & AMC"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 214,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 201,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.tsx",
-                            lineNumber: 182,
+                            lineNumber: 197,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.tsx",
-                        lineNumber: 181,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this)
                 ]
@@ -888,7 +943,7 @@ function Footer() {
                 onClose: ()=>setModalType(null)
             }, void 0, false, {
                 fileName: "[project]/components/Footer.tsx",
-                lineNumber: 211,
+                lineNumber: 226,
                 columnNumber: 7
             }, this)
         ]
@@ -1006,8 +1061,11 @@ function Header() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
-                                        }, void 0, false, {
+                                            children: [
+                                                "Call Us: ",
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/components/Header.tsx",
                                             lineNumber: 63,
                                             columnNumber: 15
@@ -1019,10 +1077,10 @@ function Header() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email}`,
+                                    href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondaryRaw}`,
                                     className: "flex items-center gap-1.5 hover:text-sky-400 transition-colors",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
                                             className: "w-3.5 h-3.5 text-sky-400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
@@ -1030,8 +1088,11 @@ function Header() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email
-                                        }, void 0, false, {
+                                            children: [
+                                                "Alternate: ",
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondary
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/components/Header.tsx",
                                             lineNumber: 70,
                                             columnNumber: 15
@@ -1042,6 +1103,30 @@ function Header() {
                                     lineNumber: 65,
                                     columnNumber: 13
                                 }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email}`,
+                                    className: "flex items-center gap-1.5 hover:text-sky-400 transition-colors",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                            className: "w-3.5 h-3.5 text-sky-400"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 76,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 77,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Header.tsx",
+                                    lineNumber: 72,
+                                    columnNumber: 13
+                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center gap-1.5 text-slate-400",
                                     children: [
@@ -1049,20 +1134,20 @@ function Header() {
                                             className: "w-3.5 h-3.5 text-slate-500"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 80,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].location
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 81,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1081,20 +1166,20 @@ function Header() {
                                             className: "w-3.5 h-3.5 text-slate-500"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].hours
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1102,7 +1187,7 @@ function Header() {
                                     children: "|"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1115,26 +1200,26 @@ function Header() {
                                             className: "w-3.5 h-3.5"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: "WhatsApp Direct"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 97,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 77,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1163,12 +1248,12 @@ function Header() {
                                         className: "w-6 h-6 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 109,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1182,21 +1267,21 @@ function Header() {
                                                     children: "MEXTECH"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header.tsx",
-                                                    lineNumber: 106,
+                                                    lineNumber: 113,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-[10px] uppercase font-semibold tracking-wider px-1.5 py-0.5 rounded bg-sky-500/10 text-sky-400 border border-sky-500/20",
-                                                    children: "14+ Yrs Exp"
+                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].experienceTitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 116,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1204,19 +1289,19 @@ function Header() {
                                             children: "Security System & IT Solutions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 100,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1233,19 +1318,19 @@ function Header() {
                                             className: "absolute bottom-0 left-0 w-full h-0.5 bg-sky-400 rounded-full"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 142,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, link.name, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 131,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 120,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1259,35 +1344,11 @@ function Header() {
                                             className: "w-3.5 h-3.5 text-sky-400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 155,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 149,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 144,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/contact",
-                                    className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-sm font-semibold shadow-lg shadow-sky-500/25 transition-all duration-200 transform hover:-translate-y-0.5",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "Get a Quote"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 155,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                            className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
                                             lineNumber: 156,
@@ -1298,11 +1359,35 @@ function Header() {
                                     fileName: "[project]/components/Header.tsx",
                                     lineNumber: 151,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/contact",
+                                    className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-sm font-semibold shadow-lg shadow-sky-500/25 transition-all duration-200 transform hover:-translate-y-0.5",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: "Get a Quote"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 162,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                            className: "w-4 h-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 163,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Header.tsx",
+                                    lineNumber: 158,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 143,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1316,12 +1401,12 @@ function Header() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 174,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1334,35 +1419,35 @@ function Header() {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 183,
                                         columnNumber: 33
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 183,
                                         columnNumber: 61
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 176,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 161,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Header.tsx",
-                    lineNumber: 98,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Header.tsx",
-                lineNumber: 97,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             mobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1380,26 +1465,26 @@ function Header() {
                                         children: link.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 198,
+                                        lineNumber: 205,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                         className: "w-4 h-4 text-slate-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 199,
+                                        lineNumber: 206,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, link.name, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 189,
+                                lineNumber: 196,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Header.tsx",
-                        lineNumber: 185,
+                        lineNumber: 192,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1413,20 +1498,20 @@ function Header() {
                                         children: "Get Free Site Inspection"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 210,
+                                        lineNumber: 217,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 218,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 206,
+                                lineNumber: 213,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1440,20 +1525,20 @@ function Header() {
                                                 className: "w-3.5 h-3.5 text-sky-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 219,
+                                                lineNumber: 226,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "Call Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 220,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 215,
+                                        lineNumber: 222,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1466,36 +1551,78 @@ function Header() {
                                                 className: "w-3.5 h-3.5 text-emerald-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 228,
+                                                lineNumber: 235,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "WhatsApp"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 236,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 222,
+                                        lineNumber: 229,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 214,
+                                lineNumber: 221,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col items-center gap-1 text-[11px] text-slate-400",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneRaw}`,
+                                        className: "hover:text-sky-400",
+                                        children: [
+                                            "Call Us: ",
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Header.tsx",
+                                        lineNumber: 240,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: `tel:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondaryRaw}`,
+                                        className: "hover:text-sky-400",
+                                        children: [
+                                            "Alternate: ",
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneSecondary
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Header.tsx",
+                                        lineNumber: 241,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Header.tsx",
+                                lineNumber: 239,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "text-center pt-2 text-xs text-slate-400",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].address
-                                    }, void 0, false, {
+                                        className: "leading-snug",
+                                        children: [
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine1,
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/components/Header.tsx",
+                                                lineNumber: 245,
+                                                columnNumber: 70
+                                            }, this),
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine2
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 234,
+                                        lineNumber: 245,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1503,25 +1630,25 @@ function Header() {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].hours
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 235,
+                                        lineNumber: 246,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 233,
+                                lineNumber: 244,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Header.tsx",
-                        lineNumber: 205,
+                        lineNumber: 212,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Header.tsx",
-                lineNumber: 184,
+                lineNumber: 191,
                 columnNumber: 9
             }, this)
         ]
@@ -1659,7 +1786,7 @@ function PolicyModal({ isOpen, type, onClose }) {
                                     children: [
                                         "At ",
                                         __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].fullName,
-                                        " (operating in Gurugram, Haryana), your privacy and property security are our utmost priority."
+                                        " (based in Gurugram / Gurgaon, with Pan India service coverage), your privacy and property security are our utmost priority."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PolicyModal.tsx",
@@ -1753,7 +1880,7 @@ function PolicyModal({ isOpen, type, onClose }) {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "Pre-installation site assessments across Gurugram are conducted to recommend optimal camera placements, conduit paths, and hardware specs. Official estimates remain valid for 15 days from issuance."
+                                    children: "Pre-installation site assessments are conducted to recommend optimal camera placements, conduit paths, and hardware specs, with Pan India service coverage. Official estimates remain valid for 15 days from issuance."
                                 }, void 0, false, {
                                     fileName: "[project]/components/PolicyModal.tsx",
                                     lineNumber: 89,
@@ -1768,7 +1895,7 @@ function PolicyModal({ isOpen, type, onClose }) {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware sourced through authorized distributor channels (CP Plus, Hikvision, Dahua, D-Link, WD Purple, etc.)."
+                                    children: "All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware sourced through authorized distributor channels (Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, WD Purple, etc.)."
                                 }, void 0, false, {
                                     fileName: "[project]/components/PolicyModal.tsx",
                                     lineNumber: 93,
@@ -1985,16 +2112,22 @@ __turbopack_context__.s([
     ()=>BRANDS_DATA,
     "COMPANY_INFO",
     ()=>COMPANY_INFO,
+    "COMPANY_START_YEAR",
+    ()=>COMPANY_START_YEAR,
     "FEATURED_SERVICES",
     ()=>FEATURED_SERVICES,
     "HOMEPAGE_SERVICES_PILLARS",
     ()=>HOMEPAGE_SERVICES_PILLARS,
+    "PRIMARY_LOCATION",
+    ()=>PRIMARY_LOCATION,
     "PROJECTS_DATA",
     ()=>PROJECTS_DATA,
     "REVIEWS_DATA",
     ()=>REVIEWS_DATA,
     "SERVICES_DATA",
     ()=>SERVICES_DATA,
+    "SERVICE_COVERAGE",
+    ()=>SERVICE_COVERAGE,
     "SERVICE_GROUPS_DATA",
     ()=>SERVICE_GROUPS_DATA,
     "SPECIALIZED_SYSTEMS",
@@ -2008,22 +2141,31 @@ __turbopack_context__.s([
     "WHY_CHOOSE_MESTECH_DATA",
     ()=>WHY_CHOOSE_MESTECH_DATA
 ]);
+const COMPANY_START_YEAR = 2022;
+const PRIMARY_LOCATION = "Gurugram / Gurgaon";
+const SERVICE_COVERAGE = "Pan India Service Coverage";
 const COMPANY_INFO = {
     name: "MEXTECH",
     fullName: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
     legalName: "Mextech Security System & IT Solution",
     tagline: "Smart Security. Reliable Technology. Complete Protection.",
-    established: "2010",
-    experienceYears: "14+",
-    experienceTitle: "14+ Years Experience",
+    established: String(COMPANY_START_YEAR),
+    experienceYears: `Since ${COMPANY_START_YEAR}`,
+    experienceTitle: `Since ${COMPANY_START_YEAR}`,
     experienceSubtitle: "Security Surveillance & Networking",
     phone: "+91 85109 29404",
     phoneRaw: "+918510929404",
-    phoneSecondary: "+91 79428 02620",
+    phoneSecondary: "+91 80021 37438",
+    phoneSecondaryRaw: "+918002137438",
     email: "mextech.ncr@gmail.com",
     location: "Gurugram, Haryana",
-    address: "Sector 23A / Om Vihar Rd, near Palam Vihar, Gurugram, Haryana 122017",
-    coverage: "Gurgaon / Delhi NCR Coverage",
+    primaryLocation: PRIMARY_LOCATION,
+    address: "Shop No-4, Om Vihar Road, Near Bikaner Sweets, Palam Vihar Extension, Gurgaon – 122017",
+    addressLine1: "Shop No-4, Om Vihar Road, Near Bikaner Sweets,",
+    addressLine2: "Palam Vihar Extension, Gurgaon – 122017",
+    coverage: SERVICE_COVERAGE,
+    coverageShort: "PAN INDIA SERVICE",
+    coverageSummary: "Site survey and service available across India, with dedicated local support in Gurugram / Gurgaon.",
     googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
     googleReviewRating: "4.9",
     hours: "9:00 AM – 9:00 PM (All 7 Days)",
@@ -2039,10 +2181,27 @@ const COMPANY_INFO = {
         "Warehouses & Logistics",
         "Corporate Headquarters"
     ],
+    premisesHeading: "Premises We Protect Across India",
+    localCoverageAreas: [
+        "Palam Vihar",
+        "Palam Vihar Extension",
+        "Sector 23 / 23A",
+        "DLF Phase 1-5",
+        "Cyber City",
+        "Udyog Vihar",
+        "Golf Course Road",
+        "Sohna Road",
+        "Sushant Lok",
+        "MG Road",
+        "Manesar"
+    ],
     brandsDealt: [
         "Hikvision",
         "CP Plus",
         "Dahua",
+        "Prama",
+        "Honeywell",
+        "Alba Urmet",
         "Matrix",
         "NEC",
         "CCL",
@@ -2120,7 +2279,8 @@ const HOMEPAGE_SERVICES_PILLARS = [
         brands: [
             "Hikvision",
             "CP Plus",
-            "Dahua"
+            "Dahua",
+            "Prama"
         ]
     },
     {
@@ -2143,9 +2303,11 @@ const HOMEPAGE_SERVICES_PILLARS = [
             "Texecom",
             "DSC",
             "Securico",
+            "Honeywell",
             "Matrix",
             "NEC",
-            "CCL"
+            "CCL",
+            "Alba Urmet"
         ]
     },
     {
@@ -2227,7 +2389,8 @@ const BRANDS_DATA = {
             brands: [
                 "Hikvision",
                 "CP Plus",
-                "Dahua"
+                "Dahua",
+                "Prama"
             ],
             description: "HD Analog, IP 4K Cameras, NVRs, DVRs & ColorVu Night Vision",
             accent: "from-sky-500/20 to-blue-500/5",
@@ -2238,7 +2401,8 @@ const BRANDS_DATA = {
             brands: [
                 "Matrix",
                 "NEC",
-                "CCL"
+                "CCL",
+                "Alba Urmet"
             ],
             description: "IP-PBX, Multi-line Office Intercoms & Video Door Systems",
             accent: "from-indigo-500/20 to-purple-500/5",
@@ -2250,7 +2414,8 @@ const BRANDS_DATA = {
                 "Texecom",
                 "DSC",
                 "Securico",
-                "Hikvision"
+                "Hikvision",
+                "Honeywell"
             ],
             description: "Perimeter Intrusion Panels, PIR Motion Sensors & Auto-Dialers",
             accent: "from-amber-500/20 to-orange-500/5",
@@ -2261,9 +2426,9 @@ const BRANDS_DATA = {
 const WHY_CHOOSE_MESTECH_DATA = [
     {
         id: "trust-1",
-        title: "14+ Years Experience",
+        title: `Since ${COMPANY_START_YEAR}`,
         subtext: "Security Surveillance & Networking",
-        desc: "Over a decade of hands-on field experience installing and troubleshooting complex low-voltage security setups across residential and commercial sectors."
+        desc: "Hands-on field experience installing and troubleshooting complex low-voltage security setups across residential and commercial sectors, with dedicated support from Gurugram."
     },
     {
         id: "trust-2",
@@ -2285,9 +2450,9 @@ const WHY_CHOOSE_MESTECH_DATA = [
     },
     {
         id: "trust-5",
-        title: "Gurgaon / Delhi NCR Coverage",
-        subtext: "Local presence & rapid response",
-        desc: "Based in Sector 23A / Palam Vihar, Gurugram. Fast response times and same-day site visits across Gurgaon, Manesar, and Delhi NCR."
+        title: "Pan India Service Coverage",
+        subtext: "Primary local area: Gurugram / Gurgaon",
+        desc: "Site survey and service available across India, with dedicated local support from our Gurugram / Gurgaon operations."
     }
 ];
 const SERVICES_DATA = [
@@ -2307,7 +2472,7 @@ const SERVICES_DATA = [
             "AI human and vehicle motion detection"
         ],
         equipment: [
-            "CP Plus / Hikvision 2MP-8MP",
+            "CP Plus / Hikvision / Prama 2MP-8MP",
             "IP Dome / Bullet Cameras",
             "ColorVu / Full-Color Sensors"
         ]
@@ -2370,7 +2535,7 @@ const SERVICES_DATA = [
             "Tamper-proof outdoor call station with night vision"
         ],
         equipment: [
-            "Panasonic / Hikvision / CP Plus VDP",
+            "Panasonic / Hikvision / CP Plus / Alba Urmet VDP",
             "Electronic Rim Locks",
             "Wi-Fi Connected Intercom Stations"
         ]
@@ -2488,7 +2653,7 @@ const SERVICES_DATA = [
         category: "repair",
         imageUrl: "/assets/cctv-repair-pcb.jpg",
         shortDesc: "Component-level motherboard repair, SMPS power supply fix, video loss troubleshooting, and firmware recovery.",
-        fullDesc: "Expert technical workbench repair in Gurugram. We fix dead DVRs, flickering camera channels, broken BNC connectors, blown capacitors, corrupted firmware chips, and unreadable surveillance hard disks.",
+        fullDesc: "Expert technical workbench repair with dedicated Gurugram support. We fix dead DVRs, flickering camera channels, broken BNC connectors, blown capacitors, corrupted firmware chips, and unreadable surveillance hard disks.",
         features: [
             "Diagnostic bench testing & micro-soldering PCB repairs",
             "Resolution of 'No Video' and black screen camera issues",
@@ -2509,7 +2674,7 @@ const SERVICES_DATA = [
         category: "repair",
         imageUrl: "/assets/security-maintenance.jpg",
         shortDesc: "Annual Maintenance Contracts (AMC), periodic lens cleaning, cable health checks, and priority breakdown response.",
-        fullDesc: "Keep your security systems operational year-round. Our AMC plans include scheduled on-site preventative maintenance, lens and dome polishing, angle adjustments, recording verification, and rapid on-call repairs across Gurugram.",
+        fullDesc: "Keep your security systems operational year-round. Our AMC plans include scheduled on-site preventative maintenance, lens and dome polishing, angle adjustments, recording verification, and rapid on-call repairs with Pan India service coverage.",
         features: [
             "Comprehensive & Non-Comprehensive AMC packages",
             "Periodic camera angle realignment and dust cleaning",
@@ -2592,7 +2757,7 @@ const SERVICES_DATA = [
         title: "Intercom & EPABX Systems",
         category: "access",
         imageUrl: "/assets/intercom-epabx.png",
-        shortDesc: "Commercial PBX, digital key telephones, and multi-apartment intercom systems from Matrix, NEC, and CCL.",
+        shortDesc: "Commercial PBX, digital key telephones, and multi-apartment intercom systems from Matrix, NEC, CCL, and Alba Urmet.",
         fullDesc: "Seamless voice connectivity across departments and apartment units. We install analog and IP-PBX phone systems, guard-to-flat intercoms, auto-attendant IVR, and call recording backbones.",
         features: [
             "Multi-line digital intercom with guard console link",
@@ -2658,7 +2823,7 @@ const SERVICE_GROUPS_DATA = {
         heroTitle: "Enterprise CCTV & Surveillance Solutions",
         heroSubtitle: "Crystal-clear high-definition recording, smart night vision, and remote mobile monitoring engineered for complete peace of mind.",
         heroImage: "/assets/main.jpg",
-        shortIntro: "MEXTECH delivers turnkey surveillance systems across Gurugram, from compact residential camera kits to multi-floor commercial 64-channel NVR deployments.",
+        shortIntro: "MEXTECH delivers turnkey surveillance systems across India, from compact residential camera kits to multi-floor commercial 64-channel NVR deployments, with dedicated support from Gurugram.",
         includedServices: [
             "HD Analog & IP Network Cameras (2MP to 8MP 4K)",
             "Standalone NVR / DVR Centralized Video Recorders",
@@ -2704,7 +2869,7 @@ const SERVICE_GROUPS_DATA = {
             {
                 step: "01",
                 title: "Free Site Assessment",
-                desc: "Our field engineer inspects your premises in Gurugram to map camera angles and cable paths."
+                desc: "Our field engineer inspects your premises to map camera angles and cable paths, with Pan India service coverage and dedicated Gurugram support."
             },
             {
                 step: "02",
@@ -2823,7 +2988,7 @@ const SERVICE_GROUPS_DATA = {
         heroTitle: "Biometric Access Control & Attendance",
         heroSubtitle: "Protect sensitive areas and automate employee attendance tracking with AI face recognition, fingerprint terminals, and electromagnetic door locks.",
         heroImage: "/assets/access-control-biometric.jpg",
-        shortIntro: "Manage entry permissions and eliminate proxy attendance. Mextech installs reliable biometric access control and cloud attendance systems across Gurugram businesses.",
+        shortIntro: "Manage entry permissions and eliminate proxy attendance. Mextech installs reliable biometric access control and cloud attendance systems for businesses across India, with dedicated support from Gurugram.",
         includedServices: [
             "Contactless AI Facial Recognition Terminals",
             "High-Precision Optical Fingerprint Scanners",
@@ -2983,7 +3148,7 @@ const SERVICE_GROUPS_DATA = {
         heroTitle: "Smart Video Intercoms & Door Entry",
         heroSubtitle: "Screen visitors safely before opening your door with HD cameras, capacitive touch screens, two-way audio, and remote smartphone unlock.",
         heroImage: "/assets/video-door-phone.jpg",
-        shortIntro: "Modern convenience meets home security. Mextech installs premium Video Door Phone systems for villas, builder floors, and apartments across Gurugram.",
+        shortIntro: "Modern convenience meets home security. Mextech installs premium Video Door Phone systems for villas, builder floors, and apartments across India, with dedicated support from Gurugram.",
         includedServices: [
             "7-Inch to 10-Inch Color Touchscreen Indoor Monitors",
             "Weatherproof Outdoor Call Units with IR Night Vision",
@@ -3060,7 +3225,7 @@ const SERVICE_GROUPS_DATA = {
         slug: "repair-maintenance",
         name: "CCTV/DVR Repair & Annual Maintenance (AMC)",
         heroTitle: "Component-Level Repair & Maintenance AMC",
-        heroSubtitle: "Gurugram's trusted diagnostic workbench for dead DVRs, video loss, flickering channels, motherboard soldering, and proactive AMC servicing.",
+        heroSubtitle: "Trusted diagnostic workbench for dead DVRs, video loss, flickering channels, motherboard soldering, and proactive AMC servicing — with Pan India service coverage.",
         heroImage: "/assets/security-maintenance.jpg",
         shortIntro: "Don't discard expensive equipment. Mextech provides skilled component-level repair for DVRs, NVRs, SMPS power supplies, and ongoing security system maintenance.",
         includedServices: [
@@ -3085,7 +3250,7 @@ const SERVICE_GROUPS_DATA = {
             },
             {
                 title: "Guaranteed Priority Breakdown Support",
-                desc: "Fast emergency service dispatch across Gurugram with temporary standby units available during repairs."
+                desc: "Fast emergency service dispatch with dedicated Gurugram support and temporary standby units available during repairs."
             }
         ],
         keyFeatures: [
@@ -3147,13 +3312,13 @@ const STRENGTHS_DATA = [
         id: "str-2",
         number: "02",
         title: "Quality Products",
-        description: "100% genuine hardware sourced from authorized industry leaders: CP Plus, Hikvision, Dahua, Ezviz, D-Link, and WD Purple."
+        description: "100% genuine hardware sourced from authorized industry leaders: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
     },
     {
         id: "str-3",
         number: "03",
         title: "Quick Service",
-        description: "Fast response times across all sectors in Gurugram, Manesar, and Delhi NCR with rapid same-day site visits."
+        description: "Pan India service coverage with dedicated local support in Gurugram / Gurgaon for site surveys, installation, and after-sales service."
     },
     {
         id: "str-4",
@@ -3320,7 +3485,7 @@ const TRUST_INDICATORS = [
     "Professional Installation",
     "Reliable Products",
     "Quick Support",
-    "Established 2021"
+    `Established ${COMPANY_START_YEAR}`
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);

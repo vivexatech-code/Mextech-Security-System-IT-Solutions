@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
               </Link>
               <p className="text-slate-400 text-xs leading-relaxed">
-                Gurugram&apos;s trusted low-voltage security and enterprise IT infrastructure specialist since {COMPANY_INFO.established}. Delivering 100% genuine products, precision concealed cabling, and dedicated after-sales AMC support.
+                Trusted low-voltage security and enterprise IT infrastructure specialist since {COMPANY_INFO.established}. Pan India service coverage with dedicated local support in {COMPANY_INFO.primaryLocation}. Delivering 100% genuine products, precision concealed cabling, and dedicated after-sales AMC support.
               </p>
               <div className="pt-2 flex flex-wrap gap-2">
                 <span className="inline-flex items-center gap-1 text-[11px] px-2 py-1 rounded bg-slate-900 border border-slate-800 text-slate-300">
@@ -50,7 +50,7 @@ export default function Footer() {
                 </span>
                 <span className="inline-flex items-center gap-1 text-[11px] px-2 py-1 rounded bg-slate-900 border border-slate-800 text-slate-300">
                   <CheckCircle className="w-3 h-3 text-emerald-400" />
-                  14+ Years Experience
+                  {COMPANY_INFO.experienceTitle}
                 </span>
               </div>
             </div>
@@ -127,10 +127,16 @@ export default function Footer() {
               </ul>
 
               <h4 className="text-xs uppercase font-semibold text-slate-300 tracking-wider mb-2">
-                Gurugram Coverage
+                Pan India Service Coverage
+              </h4>
+              <p className="text-[11px] text-slate-400 leading-relaxed mb-3">
+                Security &amp; IT solutions available across India.
+              </p>
+              <h4 className="text-xs uppercase font-semibold text-slate-300 tracking-wider mb-2">
+                Primary Local Service Area
               </h4>
               <p className="text-[11px] text-slate-400 leading-relaxed">
-                Palam Vihar, Sector 23/23A, DLF Phase 1-5, Cyber City, Udyog Vihar, Golf Course Ext., Sohna Road, Sushant Lok, MG Road, Manesar, and Delhi NCR.
+                {COMPANY_INFO.primaryLocation}: {COMPANY_INFO.localCoverageAreas.join(", ")}.
               </p>
             </div>
 
@@ -142,13 +148,22 @@ export default function Footer() {
               <div className="space-y-2.5 text-xs">
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-4 h-4 text-sky-400 mt-0.5 shrink-0" />
-                  <span className="text-slate-300 leading-snug">{COMPANY_INFO.address}</span>
+                  <span className="text-slate-300 leading-snug">
+                    {COMPANY_INFO.addressLine1}
+                    <br />
+                    {COMPANY_INFO.addressLine2}
+                  </span>
                 </div>
-                <div className="flex items-center gap-2.5">
-                  <Phone className="w-4 h-4 text-sky-400 shrink-0" />
-                  <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="text-slate-200 hover:text-sky-400 transition-colors font-medium">
-                    {COMPANY_INFO.phone}
-                  </a>
+                <div className="flex items-start gap-2.5">
+                  <Phone className="w-4 h-4 text-sky-400 shrink-0 mt-0.5" />
+                  <div className="flex flex-col gap-1">
+                    <a href={`tel:${COMPANY_INFO.phoneRaw}`} className="text-slate-200 hover:text-sky-400 transition-colors font-medium">
+                      Call Us: {COMPANY_INFO.phone}
+                    </a>
+                    <a href={`tel:${COMPANY_INFO.phoneSecondaryRaw}`} className="text-slate-300 hover:text-sky-400 transition-colors">
+                      Alternate: {COMPANY_INFO.phoneSecondary}
+                    </a>
+                  </div>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <Mail className="w-4 h-4 text-sky-400 shrink-0" />

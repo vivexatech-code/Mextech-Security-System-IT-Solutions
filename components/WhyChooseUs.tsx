@@ -38,7 +38,7 @@ export default function WhyChooseUs() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-            Ground-level engineering expertise, certified brand hardware, and authentic after-sales commitment across Gurugram and Delhi NCR.
+            Ground-level engineering expertise, certified brand hardware, and authentic after-sales commitment with Pan India service coverage and dedicated support in {COMPANY_INFO.primaryLocation}.
           </p>
         </div>
 
@@ -102,7 +102,13 @@ export default function WhyChooseUs() {
                 className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-white text-sm font-bold shadow-md transition-colors"
               >
                 <PhoneCall className="w-4 h-4" />
-                <span>Call {COMPANY_INFO.phone}</span>
+                <span>Call Us: {COMPANY_INFO.phone}</span>
+              </a>
+              <a
+                href={`tel:${COMPANY_INFO.phoneSecondaryRaw}`}
+                className="w-full text-center text-xs text-slate-400 hover:text-sky-400 transition-colors"
+              >
+                Alternate: {COMPANY_INFO.phoneSecondary}
               </a>
               <Link
                 href="/contact"

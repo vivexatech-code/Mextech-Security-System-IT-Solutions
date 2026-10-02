@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { COMPANY_INFO } from "@/data/companyData";
 
 // In-memory rate limiting tracker
 const submissionTracker = new Map<string, { count: number; firstAttempt: number }>();
@@ -29,7 +30,7 @@ export async function POST(req: Request) {
           return NextResponse.json(
             {
               success: false,
-              message: "Too many enquiries from your connection. Please call or WhatsApp us directly at +91 85109 29404.",
+              message: `Too many enquiries from your connection. Please call or WhatsApp us directly at ${COMPANY_INFO.phone} or ${COMPANY_INFO.phoneSecondary}.`,
             },
             { status: 429 }
           );
@@ -118,7 +119,7 @@ export async function POST(req: Request) {
         <div class="container">
           <div class="header">
             <h1>MEXTECH</h1>
-            <p>Security System &amp; IT Solutions — Gurugram</p>
+            <p>Security System &amp; IT Solutions — Pan India Service • Gurugram Hub</p>
           </div>
           <div class="content">
             <div class="badge">New Website Lead</div>

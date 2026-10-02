@@ -17,7 +17,7 @@ export default function ProjectShowcase() {
             Recent Deployments &amp; Installations
           </h2>
           <p className="text-base text-slate-400">
-            A snapshot of our turnkey security and IT infrastructure projects delivered across Gurugram and Manesar.
+            A snapshot of our turnkey security and IT infrastructure projects, including work delivered in Gurugram and Manesar.
           </p>
         </div>
 

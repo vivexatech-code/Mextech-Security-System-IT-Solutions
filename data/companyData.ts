@@ -8,22 +8,32 @@ import {
   ServiceCategoryGroup 
 } from "../types";
 
+export const COMPANY_START_YEAR = 2022;
+export const PRIMARY_LOCATION = "Gurugram / Gurgaon";
+export const SERVICE_COVERAGE = "Pan India Service Coverage";
+
 export const COMPANY_INFO = {
   name: "MEXTECH",
   fullName: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
   legalName: "Mextech Security System & IT Solution",
   tagline: "Smart Security. Reliable Technology. Complete Protection.",
-  established: "2010",
-  experienceYears: "14+",
-  experienceTitle: "14+ Years Experience",
+  established: String(COMPANY_START_YEAR),
+  experienceYears: `Since ${COMPANY_START_YEAR}`,
+  experienceTitle: `Since ${COMPANY_START_YEAR}`,
   experienceSubtitle: "Security Surveillance & Networking",
   phone: "+91 85109 29404",
   phoneRaw: "+918510929404",
-  phoneSecondary: "+91 79428 02620",
+  phoneSecondary: "+91 80021 37438",
+  phoneSecondaryRaw: "+918002137438",
   email: "mextech.ncr@gmail.com",
   location: "Gurugram, Haryana",
-  address: "Sector 23A / Om Vihar Rd, near Palam Vihar, Gurugram, Haryana 122017",
-  coverage: "Gurgaon / Delhi NCR Coverage",
+  primaryLocation: PRIMARY_LOCATION,
+  address: "Shop No-4, Om Vihar Road, Near Bikaner Sweets, Palam Vihar Extension, Gurgaon – 122017",
+  addressLine1: "Shop No-4, Om Vihar Road, Near Bikaner Sweets,",
+  addressLine2: "Palam Vihar Extension, Gurgaon – 122017",
+  coverage: SERVICE_COVERAGE,
+  coverageShort: "PAN INDIA SERVICE",
+  coverageSummary: "Site survey and service available across India, with dedicated local support in Gurugram / Gurgaon.",
   googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
   googleReviewRating: "4.9",
   hours: "9:00 AM – 9:00 PM (All 7 Days)",
@@ -39,10 +49,27 @@ export const COMPANY_INFO = {
     "Warehouses & Logistics",
     "Corporate Headquarters"
   ],
+  premisesHeading: "Premises We Protect Across India",
+  localCoverageAreas: [
+    "Palam Vihar",
+    "Palam Vihar Extension",
+    "Sector 23 / 23A",
+    "DLF Phase 1-5",
+    "Cyber City",
+    "Udyog Vihar",
+    "Golf Course Road",
+    "Sohna Road",
+    "Sushant Lok",
+    "MG Road",
+    "Manesar"
+  ],
   brandsDealt: [
     "Hikvision",
     "CP Plus",
     "Dahua",
+    "Prama",
+    "Honeywell",
+    "Alba Urmet",
     "Matrix",
     "NEC",
     "CCL",
@@ -86,7 +113,7 @@ export const HOMEPAGE_SERVICES_PILLARS = [
       "Wi-Fi/SIM Camera",
       "CCTV AMC & Repair"
     ],
-    brands: ["Hikvision", "CP Plus", "Dahua"]
+    brands: ["Hikvision", "CP Plus", "Dahua", "Prama"]
   },
   {
     id: "security-systems",
@@ -104,7 +131,7 @@ export const HOMEPAGE_SERVICES_PILLARS = [
       "Biometric Attendance",
       "Intercom / EPABX"
     ],
-    brands: ["Texecom", "DSC", "Securico", "Matrix", "NEC", "CCL"]
+    brands: ["Texecom", "DSC", "Securico", "Honeywell", "Matrix", "NEC", "CCL", "Alba Urmet"]
   },
   {
     id: "automation",
@@ -168,21 +195,21 @@ export const BRANDS_DATA = {
   categories: [
     {
       category: "CCTV",
-      brands: ["Hikvision", "CP Plus", "Dahua"],
+      brands: ["Hikvision", "CP Plus", "Dahua", "Prama"],
       description: "HD Analog, IP 4K Cameras, NVRs, DVRs & ColorVu Night Vision",
       accent: "from-sky-500/20 to-blue-500/5",
       border: "border-sky-500/30"
     },
     {
       category: "Intercom / EPABX",
-      brands: ["Matrix", "NEC", "CCL"],
+      brands: ["Matrix", "NEC", "CCL", "Alba Urmet"],
       description: "IP-PBX, Multi-line Office Intercoms & Video Door Systems",
       accent: "from-indigo-500/20 to-purple-500/5",
       border: "border-indigo-500/30"
     },
     {
       category: "Security Alarm",
-      brands: ["Texecom", "DSC", "Securico", "Hikvision"],
+      brands: ["Texecom", "DSC", "Securico", "Hikvision", "Honeywell"],
       description: "Perimeter Intrusion Panels, PIR Motion Sensors & Auto-Dialers",
       accent: "from-amber-500/20 to-orange-500/5",
       border: "border-amber-500/30"
@@ -194,9 +221,9 @@ export const BRANDS_DATA = {
 export const WHY_CHOOSE_MESTECH_DATA = [
   {
     id: "trust-1",
-    title: "14+ Years Experience",
+    title: `Since ${COMPANY_START_YEAR}`,
     subtext: "Security Surveillance & Networking",
-    desc: "Over a decade of hands-on field experience installing and troubleshooting complex low-voltage security setups across residential and commercial sectors."
+    desc: "Hands-on field experience installing and troubleshooting complex low-voltage security setups across residential and commercial sectors, with dedicated support from Gurugram."
   },
   {
     id: "trust-2",
@@ -218,9 +245,9 @@ export const WHY_CHOOSE_MESTECH_DATA = [
   },
   {
     id: "trust-5",
-    title: "Gurgaon / Delhi NCR Coverage",
-    subtext: "Local presence & rapid response",
-    desc: "Based in Sector 23A / Palam Vihar, Gurugram. Fast response times and same-day site visits across Gurgaon, Manesar, and Delhi NCR."
+    title: "Pan India Service Coverage",
+    subtext: "Primary local area: Gurugram / Gurgaon",
+    desc: "Site survey and service available across India, with dedicated local support from our Gurugram / Gurgaon operations."
   }
 ];
 
@@ -241,7 +268,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Real-time mobile phone remote live view",
       "AI human and vehicle motion detection"
     ],
-    equipment: ["CP Plus / Hikvision 2MP-8MP", "IP Dome / Bullet Cameras", "ColorVu / Full-Color Sensors"]
+    equipment: ["CP Plus / Hikvision / Prama 2MP-8MP", "IP Dome / Bullet Cameras", "ColorVu / Full-Color Sensors"]
   },
   {
     id: "nvr-dvr-ptz",
@@ -292,7 +319,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Smartphone app integration to answer anywhere",
       "Tamper-proof outdoor call station with night vision"
     ],
-    equipment: ["Panasonic / Hikvision / CP Plus VDP", "Electronic Rim Locks", "Wi-Fi Connected Intercom Stations"]
+    equipment: ["Panasonic / Hikvision / CP Plus / Alba Urmet VDP", "Electronic Rim Locks", "Wi-Fi Connected Intercom Stations"]
   },
   {
     id: "fire-security-alarm",
@@ -387,7 +414,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: "repair",
     imageUrl: "/assets/cctv-repair-pcb.jpg",
     shortDesc: "Component-level motherboard repair, SMPS power supply fix, video loss troubleshooting, and firmware recovery.",
-    fullDesc: "Expert technical workbench repair in Gurugram. We fix dead DVRs, flickering camera channels, broken BNC connectors, blown capacitors, corrupted firmware chips, and unreadable surveillance hard disks.",
+    fullDesc: "Expert technical workbench repair with dedicated Gurugram support. We fix dead DVRs, flickering camera channels, broken BNC connectors, blown capacitors, corrupted firmware chips, and unreadable surveillance hard disks.",
     features: [
       "Diagnostic bench testing & micro-soldering PCB repairs",
       "Resolution of 'No Video' and black screen camera issues",
@@ -404,7 +431,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     category: "repair",
     imageUrl: "/assets/security-maintenance.jpg",
     shortDesc: "Annual Maintenance Contracts (AMC), periodic lens cleaning, cable health checks, and priority breakdown response.",
-    fullDesc: "Keep your security systems operational year-round. Our AMC plans include scheduled on-site preventative maintenance, lens and dome polishing, angle adjustments, recording verification, and rapid on-call repairs across Gurugram.",
+    fullDesc: "Keep your security systems operational year-round. Our AMC plans include scheduled on-site preventative maintenance, lens and dome polishing, angle adjustments, recording verification, and rapid on-call repairs with Pan India service coverage.",
     features: [
       "Comprehensive & Non-Comprehensive AMC packages",
       "Periodic camera angle realignment and dust cleaning",
@@ -471,7 +498,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     title: "Intercom & EPABX Systems",
     category: "access",
     imageUrl: "/assets/intercom-epabx.png",
-    shortDesc: "Commercial PBX, digital key telephones, and multi-apartment intercom systems from Matrix, NEC, and CCL.",
+    shortDesc: "Commercial PBX, digital key telephones, and multi-apartment intercom systems from Matrix, NEC, CCL, and Alba Urmet.",
     fullDesc: "Seamless voice connectivity across departments and apartment units. We install analog and IP-PBX phone systems, guard-to-flat intercoms, auto-attendant IVR, and call recording backbones.",
     features: [
       "Multi-line digital intercom with guard console link",
@@ -537,7 +564,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     heroTitle: "Enterprise CCTV & Surveillance Solutions",
     heroSubtitle: "Crystal-clear high-definition recording, smart night vision, and remote mobile monitoring engineered for complete peace of mind.",
     heroImage: "/assets/main.jpg",
-    shortIntro: "MEXTECH delivers turnkey surveillance systems across Gurugram, from compact residential camera kits to multi-floor commercial 64-channel NVR deployments.",
+    shortIntro: "MEXTECH delivers turnkey surveillance systems across India, from compact residential camera kits to multi-floor commercial 64-channel NVR deployments, with dedicated support from Gurugram.",
     includedServices: [
       "HD Analog & IP Network Cameras (2MP to 8MP 4K)",
       "Standalone NVR / DVR Centralized Video Recorders",
@@ -580,7 +607,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
       "Gated Communities & Apartment Societies"
     ],
     installationProcess: [
-      { step: "01", title: "Free Site Assessment", desc: "Our field engineer inspects your premises in Gurugram to map camera angles and cable paths." },
+      { step: "01", title: "Free Site Assessment", desc: "Our field engineer inspects your premises to map camera angles and cable paths, with Pan India service coverage and dedicated Gurugram support." },
       { step: "02", title: "Transparent Quotation", desc: "Receive an itemized equipment list with genuine brand components and transparent pricing." },
       { step: "03", title: "Neat Installation", desc: "Trained technicians install cameras, conduits, NVR/DVR, and configure secure power supplies." },
       { step: "04", title: "Testing & Handover", desc: "We configure mobile viewing on all family or staff devices and provide complete operation guidance." }
@@ -670,7 +697,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     heroTitle: "Biometric Access Control & Attendance",
     heroSubtitle: "Protect sensitive areas and automate employee attendance tracking with AI face recognition, fingerprint terminals, and electromagnetic door locks.",
     heroImage: "/assets/access-control-biometric.jpg",
-    shortIntro: "Manage entry permissions and eliminate proxy attendance. Mextech installs reliable biometric access control and cloud attendance systems across Gurugram businesses.",
+    shortIntro: "Manage entry permissions and eliminate proxy attendance. Mextech installs reliable biometric access control and cloud attendance systems for businesses across India, with dedicated support from Gurugram.",
     includedServices: [
       "Contactless AI Facial Recognition Terminals",
       "High-Precision Optical Fingerprint Scanners",
@@ -798,7 +825,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     heroTitle: "Smart Video Intercoms & Door Entry",
     heroSubtitle: "Screen visitors safely before opening your door with HD cameras, capacitive touch screens, two-way audio, and remote smartphone unlock.",
     heroImage: "/assets/video-door-phone.jpg",
-    shortIntro: "Modern convenience meets home security. Mextech installs premium Video Door Phone systems for villas, builder floors, and apartments across Gurugram.",
+    shortIntro: "Modern convenience meets home security. Mextech installs premium Video Door Phone systems for villas, builder floors, and apartments across India, with dedicated support from Gurugram.",
     includedServices: [
       "7-Inch to 10-Inch Color Touchscreen Indoor Monitors",
       "Weatherproof Outdoor Call Units with IR Night Vision",
@@ -859,7 +886,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
     slug: "repair-maintenance",
     name: "CCTV/DVR Repair & Annual Maintenance (AMC)",
     heroTitle: "Component-Level Repair & Maintenance AMC",
-    heroSubtitle: "Gurugram's trusted diagnostic workbench for dead DVRs, video loss, flickering channels, motherboard soldering, and proactive AMC servicing.",
+    heroSubtitle: "Trusted diagnostic workbench for dead DVRs, video loss, flickering channels, motherboard soldering, and proactive AMC servicing — with Pan India service coverage.",
     heroImage: "/assets/security-maintenance.jpg",
     shortIntro: "Don't discard expensive equipment. Mextech provides skilled component-level repair for DVRs, NVRs, SMPS power supplies, and ongoing security system maintenance.",
     includedServices: [
@@ -884,7 +911,7 @@ export const SERVICE_GROUPS_DATA: Record<string, ServiceDetailGroup> = {
       },
       {
         title: "Guaranteed Priority Breakdown Support",
-        desc: "Fast emergency service dispatch across Gurugram with temporary standby units available during repairs."
+        desc: "Fast emergency service dispatch with dedicated Gurugram support and temporary standby units available during repairs."
       }
     ],
     keyFeatures: [
@@ -932,13 +959,13 @@ export const STRENGTHS_DATA: StrengthItem[] = [
     id: "str-2",
     number: "02",
     title: "Quality Products",
-    description: "100% genuine hardware sourced from authorized industry leaders: CP Plus, Hikvision, Dahua, Ezviz, D-Link, and WD Purple."
+    description: "100% genuine hardware sourced from authorized industry leaders: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
   },
   {
     id: "str-3",
     number: "03",
     title: "Quick Service",
-    description: "Fast response times across all sectors in Gurugram, Manesar, and Delhi NCR with rapid same-day site visits."
+    description: "Pan India service coverage with dedicated local support in Gurugram / Gurgaon for site surveys, installation, and after-sales service."
   },
   {
     id: "str-4",
@@ -1086,5 +1113,5 @@ export const TRUST_INDICATORS = [
   "Professional Installation",
   "Reliable Products",
   "Quick Support",
-  "Established 2021"
+  `Established ${COMPANY_START_YEAR}`
 ];

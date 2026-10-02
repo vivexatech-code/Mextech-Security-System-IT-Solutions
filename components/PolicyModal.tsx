@@ -62,7 +62,7 @@ export default function PolicyModal({ isOpen, type, onClose }: PolicyModalProps)
           {type === "privacy" && (
             <>
               <p className="font-medium text-slate-200">
-                At {COMPANY_INFO.fullName} (operating in Gurugram, Haryana), your privacy and property security are our utmost priority.
+                At {COMPANY_INFO.fullName} (based in Gurugram / Gurgaon, with Pan India service coverage), your privacy and property security are our utmost priority.
               </p>
               <h4 className="font-semibold text-white pt-2">1. Information Collection</h4>
               <p>
@@ -87,11 +87,11 @@ export default function PolicyModal({ isOpen, type, onClose }: PolicyModalProps)
               </p>
               <h4 className="font-semibold text-white pt-2">1. Site Surveys & Quotations</h4>
               <p>
-                Pre-installation site assessments across Gurugram are conducted to recommend optimal camera placements, conduit paths, and hardware specs. Official estimates remain valid for 15 days from issuance.
+                Pre-installation site assessments are conducted to recommend optimal camera placements, conduit paths, and hardware specs, with Pan India service coverage. Official estimates remain valid for 15 days from issuance.
               </p>
               <h4 className="font-semibold text-white pt-2">2. Genuine Products</h4>
               <p>
-                All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware sourced through authorized distributor channels (CP Plus, Hikvision, Dahua, D-Link, WD Purple, etc.).
+                All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware sourced through authorized distributor channels (Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, WD Purple, etc.).
               </p>
               <h4 className="font-semibold text-white pt-2">3. Workmanship Guarantee</h4>
               <p>

@@ -27,7 +27,7 @@ export default function AboutPreview() {
                   <span>Gurugram Operations</span>
                 </div>
                 <p className="text-white text-sm font-semibold mt-0.5">
-                  Over 1,000+ Completed Installations Across Haryana &amp; NCR
+                  Over 1,000+ Completed Installations • Pan India Service
                 </p>
               </div>
             </div>

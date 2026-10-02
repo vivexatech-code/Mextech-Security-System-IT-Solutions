@@ -12,7 +12,7 @@ import CTA from "@/components/CTA";
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero Section with 14+ Years Experience & Quick Service Badges */}
+      {/* 1. Hero Section with Since 2022 Experience & Quick Service Badges */}
       <Hero />
 
       {/* 2. Trust Strip with Authorized Brands & Premises */}
@@ -21,7 +21,7 @@ export default function HomePage() {
       {/* 3. Core Service Pillars & Subservices (CCTV & Surveillance, Security Systems, Automation, IT & Networking + PA & Walkie Talkies) */}
       <PillarServicesSection />
 
-      {/* 4. Trust Section: Why Choose Mextech? (14+ Years, Professional Installation, Genuine Products, After-Sales Support, Gurgaon/NCR) */}
+      {/* 4. Trust Section: Why Choose Mextech? (Since 2022, Professional Installation, Genuine Products, After-Sales Support, Pan India) */}
       <WhyChooseUs />
 
       {/* 5. Brands We Work With (CCTV, Intercom/EPABX, Security Alarm + Google Maps Verified Profile) */}

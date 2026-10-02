@@ -40,10 +40,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${data.heroTitle} | MEXTECH Gurugram`,
-    description: `${data.shortIntro} Turnkey installation and AMC in Gurugram, Haryana. 100% genuine hardware.`,
+    title: `${data.heroTitle} | MEXTECH`,
+    description: `${data.shortIntro} Turnkey installation and AMC with Pan India service coverage. 100% genuine hardware.`,
     openGraph: {
-      title: `${data.heroTitle} | MEXTECH Gurugram`,
+      title: `${data.heroTitle} | MEXTECH`,
       description: data.heroSubtitle,
       images: [data.heroImage],
     },
@@ -117,10 +117,10 @@ export default async function ServiceDetailPage({ params }: Props) {
                 
                 <div className="absolute bottom-4 left-4 right-4 p-3.5 rounded-xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80">
                   <span className="text-[11px] font-bold text-sky-400 uppercase tracking-wide">
-                    Gurugram Service Hub
+                    Pan India Service • Gurugram Hub
                   </span>
                   <p className="text-xs text-white font-medium mt-0.5">
-                    Fast site dispatch to DLF, Cyber City, Palam Vihar, Sohna Rd &amp; Manesar
+                    Site survey and service across India, with dedicated local support in Gurugram / Gurgaon
                   </p>
                 </div>
               </div>
@@ -272,7 +272,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                 <span>Frequently Asked Questions</span>
               </h2>
               <p className="text-xs text-slate-400">
-                Common questions regarding {group.name} in Gurugram
+                Common questions regarding {group.name}
               </p>
             </div>
 

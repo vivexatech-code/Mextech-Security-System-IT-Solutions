@@ -24,7 +24,7 @@ export default function ServiceGrid({ featuredOnly = false }: ServiceGridProps) 
                 Engineered for Complete Protection
               </h2>
               <p className="text-base text-slate-400">
-                Turnkey security and IT deployments customized for Gurugram homes, corporate workspaces, and industrial sites.
+                Turnkey security and IT deployments customized for homes, corporate workspaces, and industrial sites across India.
               </p>
             </div>
             <div>

@@ -29,7 +29,7 @@ export default function Hero() {
             {/* Top Pill Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold tracking-wide shadow-sm">
               <span className="flex h-2 w-2 rounded-full bg-sky-400 animate-pulse" />
-              <span>14+ Years Experience • Security Surveillance &amp; Networking • Gurugram &amp; Delhi NCR</span>
+              <span>{COMPANY_INFO.experienceTitle} • Security Surveillance &amp; Networking • {COMPANY_INFO.coverageShort}</span>
             </div>
 
             {/* Main Headline */}
@@ -64,7 +64,7 @@ export default function Hero() {
 
             {/* Concise Value Description */}
             <p className="text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed font-normal">
-              High-definition 4K CCTV surveillance, smart biometric access, commercial fire alarms, and enterprise Wi-Fi networking. Engineered with 100% genuine products, neat concealed cabling, and guaranteed on-site technical support across Gurugram.
+              High-definition 4K CCTV surveillance, smart biometric access, commercial fire alarms, and enterprise Wi-Fi networking. Engineered with 100% genuine products, neat concealed cabling, and on-site technical support with Pan India service coverage.
             </p>
 
             {/* Key Value Checklist */}
@@ -75,7 +75,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />
-                <span>Authorized Hikvision, CP Plus &amp; Dahua</span>
+                <span>Authorized Hikvision, Honeywell, Prama &amp; more</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />
@@ -83,7 +83,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />
-                <span>Same-day survey across all Gurugram sectors</span>
+                <span>Site survey and service available across India</span>
               </div>
             </div>
 
@@ -109,7 +109,7 @@ export default function Hero() {
             <div className="pt-2 flex items-center gap-6 text-xs text-slate-400">
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-4 h-4 text-slate-500" />
-                <span>Sector 23A / Palam Vihar, Gurugram</span>
+                <span>{COMPANY_INFO.primaryLocation} • {COMPANY_INFO.coverageShort}</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Clock className="w-4 h-4 text-slate-500" />
@@ -164,9 +164,9 @@ export default function Hero() {
                   </div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-emerald-400 font-heading">Same-Day</div>
+                  <div className="text-2xl font-bold text-emerald-400 font-heading">Pan India</div>
                   <div className="text-[11px] font-medium text-slate-400 uppercase tracking-wide mt-0.5">
-                    Site Visit
+                    Coverage
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@ export default function Hero() {
               </div>
               <div className="text-left">
                 <div className="text-xs font-bold text-white">100% Genuine Hardware</div>
-                <div className="text-[11px] text-slate-400">CP Plus, Hikvision &amp; Dahua Authorized</div>
+                <div className="text-[11px] text-slate-400">Hikvision, Honeywell, Prama &amp; Partners</div>
               </div>
             </div>
           </div>
