@@ -1140,6 +1140,7 @@ const COMPANY_INFO = {
     whatsappMessage: "Hello Mextech, I am interested in your CCTV / Security & IT Solutions. I would like to get a quote.",
     whatsappUrl: "https://wa.me/918510929404?text=Hello%20Mextech,%20I%20am%20interested%20in%20your%20CCTV%20/%20Security%20%26%20IT%20Solutions.%20I%20would%20like%20to%20get%20a%20quote.",
     premises: [
+        "Corporate Headquarters",
         "Homes & Villas",
         "Offices & Workspaces",
         "Shops & Retail Outlets",
@@ -1147,7 +1148,6 @@ const COMPANY_INFO = {
         "Commercial Buildings",
         "Schools & Institutes",
         "Warehouses & Logistics",
-        "Corporate Headquarters"
     ],
     brandsDealt: [
         "Hikvision",
