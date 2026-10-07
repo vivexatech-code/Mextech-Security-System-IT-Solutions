@@ -26,7 +26,7 @@ export const COMPANY_INFO = {
   phoneRaw: "+918510929404",
   phoneSecondary: "+91 80021 37438",
   phoneSecondaryRaw: "+918002137438",
-  email: "mextech.ncr@gmail.com",
+  email: "support@mextech.in",
   location: "Gurugram, Haryana",
   primaryLocation: PRIMARY_LOCATION,
   address: "Shop No-4, Om Vihar Road, Near Bikaner Sweets, Palam Vihar Extension, Gurgaon – 122017",

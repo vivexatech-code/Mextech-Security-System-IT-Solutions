@@ -160,7 +160,7 @@ export async function POST(req: Request) {
 
         const emailResult = await resend.emails.send({
           from: "Mextech Enquiries <onboarding@resend.dev>",
-          to: ["mextech.ncr@gmail.com"],
+          to: [COMPANY_INFO.email],
           subject: emailSubject,
           html: emailHtml,
           replyTo: email && email.includes("@") ? email : undefined,
