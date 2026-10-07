@@ -163,7 +163,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield.js [app-client] (ecmascript) <export default as Shield>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
@@ -176,6 +176,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$PolicyModal$2e
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -202,9 +203,13 @@ function Footer() {
                                             className: "flex items-center gap-3",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-blue-700 flex items-center justify-center shadow-lg shadow-sky-500/20",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
-                                                        className: "w-5 h-5 text-white"
+                                                    className: "relative w-10 h-10 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg shadow-black/40 bg-black shrink-0",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].logoUrl,
+                                                        alt: "Mextech logo",
+                                                        fill: true,
+                                                        sizes: "40px",
+                                                        className: "object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
                                                         lineNumber: 32,
@@ -222,7 +227,7 @@ function Footer() {
                                                             children: "MEXTECH"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 35,
+                                                            lineNumber: 41,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -230,13 +235,13 @@ function Footer() {
                                                             children: "Security & IT Solutions"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 38,
+                                                            lineNumber: 44,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 34,
+                                                    lineNumber: 40,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
@@ -256,7 +261,7 @@ function Footer() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 43,
+                                            lineNumber: 49,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -269,14 +274,14 @@ function Footer() {
                                                             className: "w-3 h-3 text-sky-400"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 48,
+                                                            lineNumber: 54,
                                                             columnNumber: 19
                                                         }, this),
                                                         "Govt / Commercial Certified"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 53,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -286,20 +291,20 @@ function Footer() {
                                                             className: "w-3 h-3 text-emerald-400"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 52,
+                                                            lineNumber: 58,
                                                             columnNumber: 19
                                                         }, this),
                                                         __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].experienceTitle
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 57,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 52,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -315,7 +320,7 @@ function Footer() {
                                             children: "Security Solutions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 66,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -330,41 +335,11 @@ function Footer() {
                                                                 className: "w-3.5 h-3.5 text-sky-500 shrink-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
-                                                                lineNumber: 66,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "CCTV Camera & 4K IP Systems"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/Footer.tsx",
-                                                                lineNumber: 67,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 65,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 64,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services/cctv-surveillance",
-                                                        className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-                                                                className: "w-3.5 h-3.5 text-sky-500 shrink-0"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 72,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "NVR, DVR & PTZ 360° Cameras"
+                                                                children: "CCTV Camera & 4K IP Systems"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 73,
@@ -383,7 +358,7 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services/access-control",
+                                                        href: "/services/cctv-surveillance",
                                                         className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -394,7 +369,7 @@ function Footer() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Biometric Face & Fingerprint Access"
+                                                                children: "NVR, DVR & PTZ 360° Cameras"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 79,
@@ -413,7 +388,7 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services/video-door-phone",
+                                                        href: "/services/access-control",
                                                         className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -424,7 +399,7 @@ function Footer() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Smart Video Door Phone & Intercom"
+                                                                children: "Biometric Face & Fingerprint Access"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 85,
@@ -443,7 +418,7 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services/networking",
+                                                        href: "/services/video-door-phone",
                                                         className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -454,7 +429,7 @@ function Footer() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Enterprise Wi-Fi & Cat6 Cabling"
+                                                                children: "Smart Video Door Phone & Intercom"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 91,
@@ -473,7 +448,7 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services/fire-security",
+                                                        href: "/services/networking",
                                                         className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -484,7 +459,7 @@ function Footer() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "Fire Alarm & Smoke Detection"
+                                                                children: "Enterprise Wi-Fi & Cat6 Cabling"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 97,
@@ -503,7 +478,7 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services/repair-maintenance",
+                                                        href: "/services/fire-security",
                                                         className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -514,7 +489,7 @@ function Footer() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                children: "DVR / NVR Repair & AMC Maintenance"
+                                                                children: "Fire Alarm & Smoke Detection"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer.tsx",
                                                                 lineNumber: 103,
@@ -530,17 +505,47 @@ function Footer() {
                                                     fileName: "[project]/components/Footer.tsx",
                                                     lineNumber: 100,
                                                     columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/services/repair-maintenance",
+                                                        className: "hover:text-sky-400 transition-colors flex items-center gap-1.5",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                                                className: "w-3.5 h-3.5 text-sky-500 shrink-0"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Footer.tsx",
+                                                                lineNumber: 108,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                children: "DVR / NVR Repair & AMC Maintenance"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Footer.tsx",
+                                                                lineNumber: 109,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/Footer.tsx",
+                                                        lineNumber: 107,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.tsx",
+                                                    lineNumber: 106,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 69,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -550,7 +555,7 @@ function Footer() {
                                             children: "Company & Service Areas"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -563,36 +568,6 @@ function Footer() {
                                                         children: "Home Page"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 116,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 115,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/about",
-                                                        className: "hover:text-white transition-colors",
-                                                        children: "About Mextech"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 119,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 118,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/services",
-                                                        className: "hover:text-white transition-colors",
-                                                        children: "All 13 Security Services"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Footer.tsx",
                                                         lineNumber: 122,
                                                         columnNumber: 19
                                                     }, this)
@@ -603,9 +578,9 @@ function Footer() {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/contact",
+                                                        href: "/about",
                                                         className: "hover:text-white transition-colors",
-                                                        children: "Contact & Site Survey"
+                                                        children: "About Mextech"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
                                                         lineNumber: 125,
@@ -615,11 +590,41 @@ function Footer() {
                                                     fileName: "[project]/components/Footer.tsx",
                                                     lineNumber: 124,
                                                     columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/services",
+                                                        className: "hover:text-white transition-colors",
+                                                        children: "All 13 Security Services"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Footer.tsx",
+                                                        lineNumber: 128,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.tsx",
+                                                    lineNumber: 127,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/contact",
+                                                        className: "hover:text-white transition-colors",
+                                                        children: "Contact & Site Survey"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Footer.tsx",
+                                                        lineNumber: 131,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.tsx",
+                                                    lineNumber: 130,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 120,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -627,7 +632,7 @@ function Footer() {
                                             children: "Pan India Service Coverage"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 135,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -635,7 +640,7 @@ function Footer() {
                                             children: "Security & IT solutions available across India."
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -643,7 +648,7 @@ function Footer() {
                                             children: "Primary Local Service Area"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 141,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -656,13 +661,13 @@ function Footer() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 138,
+                                            lineNumber: 144,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -673,7 +678,7 @@ function Footer() {
                                             children: "Contact Helpdesk"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 145,
+                                            lineNumber: 151,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -686,7 +691,7 @@ function Footer() {
                                                             className: "w-4 h-4 text-sky-400 mt-0.5 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 150,
+                                                            lineNumber: 156,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -695,20 +700,20 @@ function Footer() {
                                                                 __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine1,
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/components/Footer.tsx",
-                                                                    lineNumber: 153,
+                                                                    lineNumber: 159,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine2
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 157,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 155,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -718,7 +723,7 @@ function Footer() {
                                                             className: "w-4 h-4 text-sky-400 shrink-0 mt-0.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 158,
+                                                            lineNumber: 164,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -733,7 +738,7 @@ function Footer() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Footer.tsx",
-                                                                    lineNumber: 160,
+                                                                    lineNumber: 166,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -745,19 +750,19 @@ function Footer() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Footer.tsx",
-                                                                    lineNumber: 163,
+                                                                    lineNumber: 169,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 159,
+                                                            lineNumber: 165,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 163,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -767,37 +772,13 @@ function Footer() {
                                                             className: "w-4 h-4 text-sky-400 shrink-0"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 169,
+                                                            lineNumber: 175,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email}`,
                                                             className: "text-slate-300 hover:text-sky-400 transition-colors",
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].email
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 170,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/Footer.tsx",
-                                                    lineNumber: 168,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-2.5",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
-                                                            className: "w-4 h-4 text-slate-500 shrink-0"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Footer.tsx",
-                                                            lineNumber: 175,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-slate-400",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].hours
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer.tsx",
                                                             lineNumber: 176,
@@ -808,11 +789,35 @@ function Footer() {
                                                     fileName: "[project]/components/Footer.tsx",
                                                     lineNumber: 174,
                                                     columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-2.5",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
+                                                            className: "w-4 h-4 text-slate-500 shrink-0"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Footer.tsx",
+                                                            lineNumber: 181,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "text-slate-400",
+                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].hours
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Footer.tsx",
+                                                            lineNumber: 182,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/Footer.tsx",
+                                                    lineNumber: 180,
+                                                    columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 154,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -827,31 +832,31 @@ function Footer() {
                                                         className: "w-4 h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 187,
+                                                        lineNumber: 193,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Chat on WhatsApp"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.tsx",
-                                                        lineNumber: 188,
+                                                        lineNumber: 194,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer.tsx",
-                                                lineNumber: 181,
+                                                lineNumber: 187,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 180,
+                                            lineNumber: 186,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 150,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -881,7 +886,7 @@ function Footer() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 204,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -893,7 +898,7 @@ function Footer() {
                                             children: "Privacy Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 202,
+                                            lineNumber: 208,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -902,7 +907,7 @@ function Footer() {
                                             children: "Terms of Service"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 208,
+                                            lineNumber: 214,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -911,24 +916,24 @@ function Footer() {
                                             children: "Warranty & AMC"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.tsx",
-                                            lineNumber: 214,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.tsx",
-                                    lineNumber: 201,
+                                    lineNumber: 207,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.tsx",
-                            lineNumber: 197,
+                            lineNumber: 203,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.tsx",
-                        lineNumber: 196,
+                        lineNumber: 202,
                         columnNumber: 9
                     }, this)
                 ]
@@ -943,7 +948,7 @@ function Footer() {
                 onClose: ()=>setModalType(null)
             }, void 0, false, {
                 fileName: "[project]/components/Footer.tsx",
-                lineNumber: 226,
+                lineNumber: 232,
                 columnNumber: 7
             }, this)
         ]
@@ -971,12 +976,12 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript) <export default as Clock>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield.js [app-client] (ecmascript) <export default as Shield>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript) <export default as ChevronRight>");
@@ -986,6 +991,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -1243,9 +1249,14 @@ function Header() {
                             className: "flex items-center gap-3 group focus:outline-none",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-11 h-11 rounded-xl bg-gradient-to-br from-sky-500 to-blue-700 flex items-center justify-center shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform duration-200",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
-                                        className: "w-6 h-6 text-white"
+                                    className: "relative w-11 h-11 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg shadow-black/40 group-hover:scale-105 transition-transform duration-200 bg-black shrink-0",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].logoUrl,
+                                        alt: "Mextech logo",
+                                        fill: true,
+                                        priority: true,
+                                        sizes: "44px",
+                                        className: "object-cover"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
                                         lineNumber: 109,
@@ -1267,7 +1278,7 @@ function Header() {
                                                     children: "MEXTECH"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 120,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1275,13 +1286,13 @@ function Header() {
                                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].experienceTitle
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header.tsx",
-                                                    lineNumber: 116,
+                                                    lineNumber: 123,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1289,13 +1300,13 @@ function Header() {
                                             children: "Security System & IT Solutions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 127,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 111,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1318,19 +1329,19 @@ function Header() {
                                             className: "absolute bottom-0 left-0 w-full h-0.5 bg-sky-400 rounded-full"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 149,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, link.name, true, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 138,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 127,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1344,35 +1355,11 @@ function Header() {
                                             className: "w-3.5 h-3.5 text-sky-400"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 155,
+                                            lineNumber: 162,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phone
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 156,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 151,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "/contact",
-                                    className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-sm font-semibold shadow-lg shadow-sky-500/25 transition-all duration-200 transform hover:-translate-y-0.5",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            children: "Get a Quote"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Header.tsx",
-                                            lineNumber: 162,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                            className: "w-4 h-4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header.tsx",
                                             lineNumber: 163,
@@ -1383,11 +1370,35 @@ function Header() {
                                     fileName: "[project]/components/Header.tsx",
                                     lineNumber: 158,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/contact",
+                                    className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-sky-500 hover:bg-sky-400 text-white text-sm font-semibold shadow-lg shadow-sky-500/25 transition-all duration-200 transform hover:-translate-y-0.5",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: "Get a Quote"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 169,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                            className: "w-4 h-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Header.tsx",
+                                            lineNumber: 170,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Header.tsx",
+                                    lineNumber: 165,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 150,
+                            lineNumber: 157,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1401,12 +1412,12 @@ function Header() {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 174,
+                                        lineNumber: 181,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 176,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1419,24 +1430,24 @@ function Header() {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 190,
                                         columnNumber: 33
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                         className: "w-6 h-6"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 183,
+                                        lineNumber: 190,
                                         columnNumber: 61
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
-                                    lineNumber: 176,
+                                    lineNumber: 183,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header.tsx",
-                            lineNumber: 168,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1465,26 +1476,26 @@ function Header() {
                                         children: link.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 205,
+                                        lineNumber: 212,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                         className: "w-4 h-4 text-slate-500"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 206,
+                                        lineNumber: 213,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, link.name, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 196,
+                                lineNumber: 203,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Header.tsx",
-                        lineNumber: 192,
+                        lineNumber: 199,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1498,20 +1509,20 @@ function Header() {
                                         children: "Get Free Site Inspection"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 217,
+                                        lineNumber: 224,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                         className: "w-4 h-4"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 218,
+                                        lineNumber: 225,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 213,
+                                lineNumber: 220,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1525,20 +1536,20 @@ function Header() {
                                                 className: "w-3.5 h-3.5 text-sky-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 226,
+                                                lineNumber: 233,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "Call Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 227,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 222,
+                                        lineNumber: 229,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1551,26 +1562,26 @@ function Header() {
                                                 className: "w-3.5 h-3.5 text-emerald-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 235,
+                                                lineNumber: 242,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "WhatsApp"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 236,
+                                                lineNumber: 243,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 229,
+                                        lineNumber: 236,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 221,
+                                lineNumber: 228,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1585,7 +1596,7 @@ function Header() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 240,
+                                        lineNumber: 247,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1597,13 +1608,13 @@ function Header() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 241,
+                                        lineNumber: 248,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 239,
+                                lineNumber: 246,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1615,14 +1626,14 @@ function Header() {
                                             __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine1,
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/components/Header.tsx",
-                                                lineNumber: 245,
+                                                lineNumber: 252,
                                                 columnNumber: 70
                                             }, this),
                                             __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].addressLine2
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 245,
+                                        lineNumber: 252,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1630,25 +1641,25 @@ function Header() {
                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].hours
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header.tsx",
-                                        lineNumber: 246,
+                                        lineNumber: 253,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header.tsx",
-                                lineNumber: 244,
+                                lineNumber: 251,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Header.tsx",
-                        lineNumber: 212,
+                        lineNumber: 219,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Header.tsx",
-                lineNumber: 191,
+                lineNumber: 198,
                 columnNumber: 9
             }, this)
         ]
@@ -1786,7 +1797,7 @@ function PolicyModal({ isOpen, type, onClose }) {
                                     children: [
                                         "At ",
                                         __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COMPANY_INFO"].fullName,
-                                        " (based in Gurugram / Gurgaon, with Pan India service coverage), your privacy and property security are our utmost priority."
+                                        " (based in Delhi NCR, with Pan India service coverage), your privacy and property security are our utmost priority."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PolicyModal.tsx",
@@ -1895,7 +1906,7 @@ function PolicyModal({ isOpen, type, onClose }) {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    children: "All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware sourced through authorized distributor channels (Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, WD Purple, etc.)."
+                                    children: "All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware from brands we deal with (Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, WD Purple, etc.)."
                                 }, void 0, false, {
                                     fileName: "[project]/components/PolicyModal.tsx",
                                     lineNumber: 93,
@@ -2142,13 +2153,14 @@ __turbopack_context__.s([
     ()=>WHY_CHOOSE_MESTECH_DATA
 ]);
 const COMPANY_START_YEAR = 2022;
-const PRIMARY_LOCATION = "Gurugram / Gurgaon";
+const PRIMARY_LOCATION = "Delhi NCR";
 const SERVICE_COVERAGE = "Pan India Service Coverage";
 const COMPANY_INFO = {
     name: "MEXTECH",
     fullName: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
     legalName: "Mextech Security System & IT Solution",
     tagline: "Smart Security. Reliable Technology. Complete Protection.",
+    logoUrl: "/assets/logo.jpg",
     established: String(COMPANY_START_YEAR),
     experienceYears: `Since ${COMPANY_START_YEAR}`,
     experienceTitle: `Since ${COMPANY_START_YEAR}`,
@@ -2165,7 +2177,7 @@ const COMPANY_INFO = {
     addressLine2: "Palam Vihar Extension, Gurgaon – 122017",
     coverage: SERVICE_COVERAGE,
     coverageShort: "PAN INDIA SERVICE",
-    coverageSummary: "Site survey and service available across India, with dedicated local support in Gurugram / Gurgaon.",
+    coverageSummary: "Site survey and service available across India, with dedicated local support in Delhi NCR.",
     googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
     googleReviewRating: "4.9",
     hours: "9:00 AM – 9:00 PM (All 7 Days)",
@@ -2440,7 +2452,7 @@ const WHY_CHOOSE_MESTECH_DATA = [
         id: "trust-3",
         title: "Genuine Products",
         subtext: "Leading security & networking brands",
-        desc: "100% original hardware directly sourced from authorized brand channels with verifiable serial numbers and manufacturer warranties."
+        desc: "100% original hardware from brands we deal with, with verifiable serial numbers and manufacturer warranties."
     },
     {
         id: "trust-4",
@@ -2451,8 +2463,8 @@ const WHY_CHOOSE_MESTECH_DATA = [
     {
         id: "trust-5",
         title: "Pan India Service Coverage",
-        subtext: "Primary local area: Gurugram / Gurgaon",
-        desc: "Site survey and service available across India, with dedicated local support from our Gurugram / Gurgaon operations."
+        subtext: "Primary local area: Delhi NCR",
+        desc: "Site survey and service available across India, with dedicated local support from our Delhi NCR operations."
     }
 ];
 const SERVICES_DATA = [
@@ -3312,13 +3324,13 @@ const STRENGTHS_DATA = [
         id: "str-2",
         number: "02",
         title: "Quality Products",
-        description: "100% genuine hardware sourced from authorized industry leaders: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
+        description: "100% genuine hardware from brands we deal with: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
     },
     {
         id: "str-3",
         number: "03",
         title: "Quick Service",
-        description: "Pan India service coverage with dedicated local support in Gurugram / Gurgaon for site surveys, installation, and after-sales service."
+        description: "Pan India service coverage with dedicated local support in Delhi NCR for site surveys, installation, and after-sales service."
     },
     {
         id: "str-4",

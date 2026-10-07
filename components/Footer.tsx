@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { 
-  Shield, 
   Phone, 
   Mail, 
   MapPin, 
@@ -28,8 +28,14 @@ export default function Footer() {
             {/* Col 1: Company Profile */}
             <div className="space-y-4">
               <Link href="/" className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 to-blue-700 flex items-center justify-center shadow-lg shadow-sky-500/20">
-                  <Shield className="w-5 h-5 text-white" />
+                <div className="relative w-10 h-10 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg shadow-black/40 bg-black shrink-0">
+                  <Image
+                    src={COMPANY_INFO.logoUrl}
+                    alt="Mextech logo"
+                    fill
+                    sizes="40px"
+                    className="object-cover"
+                  />
                 </div>
                 <div>
                   <span className="text-xl font-bold tracking-tight text-white font-heading">

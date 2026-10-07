@@ -84,7 +84,7 @@ const metadata = {
         default: "Mextech Security System & IT Solutions | CCTV, Security & IT Across India",
         template: "%s | Mextech Security System & IT Solutions"
     },
-    description: "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Authorized Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
+    description: "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Delhi NCR. Deals with Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
     keywords: [
         "CCTV installation in Gurgaon",
         "CCTV camera installation Gurgaon",
@@ -120,7 +120,7 @@ const metadata = {
         locale: "en_IN",
         url: "https://mextechsecurity.com",
         title: "Mextech Security System & IT Solutions | Pan India Service",
-        description: "Reliable CCTV, Security & IT Solutions for homes, offices and businesses across India. Primary local office in Gurugram / Gurgaon. 100% genuine products and dedicated after-sales support.",
+        description: "Reliable CCTV, Security & IT Solutions for homes, offices and businesses across India. Primary local office in Delhi NCR. 100% genuine products and dedicated after-sales support.",
         siteName: "Mextech Security System & IT Solutions",
         images: [
             {
@@ -134,13 +134,20 @@ const metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Mextech Security System & IT Solutions | CCTV, Security & IT Across India",
-        description: "Reliable CCTV, Security & IT Solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Serving since 2022.",
+        description: "Reliable CCTV, Security & IT Solutions with Pan India service coverage. Primary local office in Delhi NCR. Serving since 2022.",
         images: [
             "/assets/main.jpg"
         ]
     },
     icons: {
-        icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/%3E%3Ccircle cx='12' cy='11' r='3' fill='%230284c7'/%3E%3C/svg%3E"
+        icon: [
+            {
+                url: "/assets/logo.jpg",
+                type: "image/jpeg"
+            }
+        ],
+        shortcut: "/assets/logo.jpg",
+        apple: "/assets/logo.jpg"
     },
     other: {
         "geo.region": "IN-HR",
@@ -153,8 +160,8 @@ const jsonLd = {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
     name: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
-    image: "/assets/main.jpg",
-    description: "Professional security and IT solutions company based in Gurugram / Gurgaon with Pan India service coverage. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
+    image: "/assets/logo.jpg",
+    description: "Professional security and IT solutions company based in Delhi NCR with Pan India service coverage. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
     foundingDate: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["COMPANY_INFO"].established,
     telephone: [
         __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$companyData$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["COMPANY_INFO"].phoneRaw,
@@ -194,6 +201,7 @@ const jsonLd = {
     areaServed: [
         "IN",
         "India",
+        "Delhi NCR",
         "Gurugram",
         "Gurgaon"
     ]
@@ -211,12 +219,12 @@ function RootLayout({ children }) {
                     }
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 131,
+                    lineNumber: 133,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 130,
+                lineNumber: 132,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -224,7 +232,7 @@ function RootLayout({ children }) {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 137,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -232,29 +240,29 @@ function RootLayout({ children }) {
                         children: children
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 138,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 139,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$FloatingContact$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 140,
+                        lineNumber: 142,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 136,
+                lineNumber: 138,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 129,
+        lineNumber: 131,
         columnNumber: 5
     }, this);
 }
@@ -409,13 +417,14 @@ __turbopack_context__.s([
     ()=>WHY_CHOOSE_MESTECH_DATA
 ]);
 const COMPANY_START_YEAR = 2022;
-const PRIMARY_LOCATION = "Gurugram / Gurgaon";
+const PRIMARY_LOCATION = "Delhi NCR";
 const SERVICE_COVERAGE = "Pan India Service Coverage";
 const COMPANY_INFO = {
     name: "MEXTECH",
     fullName: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
     legalName: "Mextech Security System & IT Solution",
     tagline: "Smart Security. Reliable Technology. Complete Protection.",
+    logoUrl: "/assets/logo.jpg",
     established: String(COMPANY_START_YEAR),
     experienceYears: `Since ${COMPANY_START_YEAR}`,
     experienceTitle: `Since ${COMPANY_START_YEAR}`,
@@ -432,7 +441,7 @@ const COMPANY_INFO = {
     addressLine2: "Palam Vihar Extension, Gurgaon – 122017",
     coverage: SERVICE_COVERAGE,
     coverageShort: "PAN INDIA SERVICE",
-    coverageSummary: "Site survey and service available across India, with dedicated local support in Gurugram / Gurgaon.",
+    coverageSummary: "Site survey and service available across India, with dedicated local support in Delhi NCR.",
     googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
     googleReviewRating: "4.9",
     hours: "9:00 AM – 9:00 PM (All 7 Days)",
@@ -707,7 +716,7 @@ const WHY_CHOOSE_MESTECH_DATA = [
         id: "trust-3",
         title: "Genuine Products",
         subtext: "Leading security & networking brands",
-        desc: "100% original hardware directly sourced from authorized brand channels with verifiable serial numbers and manufacturer warranties."
+        desc: "100% original hardware from brands we deal with, with verifiable serial numbers and manufacturer warranties."
     },
     {
         id: "trust-4",
@@ -718,8 +727,8 @@ const WHY_CHOOSE_MESTECH_DATA = [
     {
         id: "trust-5",
         title: "Pan India Service Coverage",
-        subtext: "Primary local area: Gurugram / Gurgaon",
-        desc: "Site survey and service available across India, with dedicated local support from our Gurugram / Gurgaon operations."
+        subtext: "Primary local area: Delhi NCR",
+        desc: "Site survey and service available across India, with dedicated local support from our Delhi NCR operations."
     }
 ];
 const SERVICES_DATA = [
@@ -1579,13 +1588,13 @@ const STRENGTHS_DATA = [
         id: "str-2",
         number: "02",
         title: "Quality Products",
-        description: "100% genuine hardware sourced from authorized industry leaders: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
+        description: "100% genuine hardware from brands we deal with: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
     },
     {
         id: "str-3",
         number: "03",
         title: "Quick Service",
-        description: "Pan India service coverage with dedicated local support in Gurugram / Gurgaon for site surveys, installation, and after-sales service."
+        description: "Pan India service coverage with dedicated local support in Delhi NCR for site surveys, installation, and after-sales service."
     },
     {
         id: "str-4",

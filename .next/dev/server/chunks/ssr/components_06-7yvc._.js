@@ -74,7 +74,7 @@ function BrandsSection() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "Authorized Hardware Sourcing"
+                                        children: "Deals with"
                                     }, void 0, false, {
                                         fileName: "[project]/components/BrandsSection.tsx",
                                         lineNumber: 35,
@@ -104,7 +104,7 @@ function BrandsSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm text-slate-400 max-w-2xl mx-auto leading-relaxed",
-                                children: "We deploy 100% genuine equipment directly sourced from authorized brand channels with valid manufacturer warranties, active cloud apps, and full RMA technical support."
+                                children: "We deploy 100% genuine equipment from the brands we deal with, with valid manufacturer warranties, active cloud apps, and full RMA technical support."
                             }, void 0, false, {
                                 fileName: "[project]/components/BrandsSection.tsx",
                                 lineNumber: 46,
@@ -633,7 +633,7 @@ function ContactForm() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm text-slate-400 mt-1",
-                                children: "Fill in your details below. Our field engineering team responds promptly. Pan India service coverage with dedicated support in Gurugram / Gurgaon."
+                                children: "Fill in your details below. Our field engineering team responds promptly. Pan India service coverage with dedicated support in Delhi NCR."
                             }, void 0, false, {
                                 fileName: "[project]/components/ContactForm.tsx",
                                 lineNumber: 83,
@@ -1381,7 +1381,7 @@ function Hero() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Authorized Hikvision, Honeywell, Prama & more"
+                                                    children: "Deals with Hikvision, Honeywell, Prama & more"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Hero.tsx",
                                                     lineNumber: 78,

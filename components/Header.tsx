@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { 
   Phone, 
   Mail, 
   MapPin, 
   Clock, 
-  Shield, 
   Menu, 
   X, 
   ChevronRight, 
@@ -105,8 +105,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Company Brand Logo */}
           <Link href="/" className="flex items-center gap-3 group focus:outline-none">
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-sky-500 to-blue-700 flex items-center justify-center shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform duration-200">
-              <Shield className="w-6 h-6 text-white" />
+            <div className="relative w-11 h-11 rounded-xl overflow-hidden border border-slate-700/80 shadow-lg shadow-black/40 group-hover:scale-105 transition-transform duration-200 bg-black shrink-0">
+              <Image
+                src={COMPANY_INFO.logoUrl}
+                alt="Mextech logo"
+                fill
+                priority
+                sizes="44px"
+                className="object-cover"
+              />
             </div>
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">

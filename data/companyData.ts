@@ -17,6 +17,7 @@ export const COMPANY_INFO = {
   fullName: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
   legalName: "Mextech Security System & IT Solution",
   tagline: "Smart Security. Reliable Technology. Complete Protection.",
+  logoUrl: "/assets/logo.jpg",
   established: String(COMPANY_START_YEAR),
   experienceYears: `Since ${COMPANY_START_YEAR}`,
   experienceTitle: `Since ${COMPANY_START_YEAR}`,

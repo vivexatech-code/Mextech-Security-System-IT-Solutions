@@ -75,7 +75,9 @@ export const metadata: Metadata = {
     images: ["/assets/main.jpg"],
   },
   icons: {
-    icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/%3E%3Ccircle cx='12' cy='11' r='3' fill='%230284c7'/%3E%3C/svg%3E",
+    icon: [{ url: "/assets/logo.jpg", type: "image/jpeg" }],
+    shortcut: "/assets/logo.jpg",
+    apple: "/assets/logo.jpg",
   },
   other: {
     "geo.region": "IN-HR",
@@ -89,7 +91,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
   name: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
-  image: "/assets/main.jpg",
+  image: "/assets/logo.jpg",
   description:
     "Professional security and IT solutions company based in Delhi NCR with Pan India service coverage. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
   foundingDate: COMPANY_INFO.established,
