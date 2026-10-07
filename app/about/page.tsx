@@ -29,7 +29,7 @@ const VALUES = [
   {
     icon: <ShieldCheck className="w-6 h-6 text-sky-400" />,
     title: "100% Genuine Hardware",
-    desc: "We exclusively install authorized equipment from tier-1 manufacturers including Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple with full manufacturer warranties.",
+    desc: "We exclusively install equipment from brands we deal with, including Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple with full manufacturer warranties.",
   },
   {
     icon: <Wrench className="w-6 h-6 text-emerald-400" />,

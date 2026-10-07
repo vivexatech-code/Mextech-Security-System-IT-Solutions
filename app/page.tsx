@@ -15,7 +15,7 @@ export default function HomePage() {
       {/* 1. Hero Section with Since 2022 Experience & Quick Service Badges */}
       <Hero />
 
-      {/* 2. Trust Strip with Authorized Brands & Premises */}
+      {/* 2. Trust Strip with Brands We Deal With & Premises */}
       <TrustStrip />
 
       {/* 3. Core Service Pillars & Subservices (CCTV & Surveillance, Security Systems, Automation, IT & Networking + PA & Walkie Talkies) */}

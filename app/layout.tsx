@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Mextech Security System & IT Solutions",
   },
   description:
-    "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Authorized Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
+    "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Deals with Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
   keywords: [
     "CCTV installation in Gurgaon",
     "CCTV camera installation Gurgaon",

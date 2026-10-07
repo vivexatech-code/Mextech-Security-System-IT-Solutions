@@ -14,7 +14,7 @@ export default function TrustStrip() {
             </div>
             <div>
               <span className="text-xs uppercase font-bold tracking-wider text-slate-400">
-                Authorized Hardware &amp; Partners
+                Deals with
               </span>
               <p className="text-[11px] text-slate-400">
                 100% Original Manufacturer Warranty Guaranteed

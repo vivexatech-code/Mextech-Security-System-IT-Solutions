@@ -75,7 +75,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />
-                <span>Authorized Hikvision, Honeywell, Prama &amp; more</span>
+                <span>Deals with Hikvision, Honeywell, Prama &amp; more</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-sky-400 shrink-0" />

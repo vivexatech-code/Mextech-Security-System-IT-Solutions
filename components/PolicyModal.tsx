@@ -91,7 +91,7 @@ export default function PolicyModal({ isOpen, type, onClose }: PolicyModalProps)
               </p>
               <h4 className="font-semibold text-white pt-2">2. Genuine Products</h4>
               <p>
-                All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware sourced through authorized distributor channels (Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, WD Purple, etc.).
+                All cameras, NVRs, DVRs, hard drives, cables, and biometric terminals supplied by Mextech are 100% original, brand-new hardware from brands we deal with (Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, WD Purple, etc.).
               </p>
               <h4 className="font-semibold text-white pt-2">3. Workmanship Guarantee</h4>
               <p>

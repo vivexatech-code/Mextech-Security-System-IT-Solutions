@@ -75,10 +75,10 @@ export default function ServicesPage() {
           <div className="pt-12 border-t border-slate-800 text-center space-y-6">
             <div className="space-y-2">
               <h2 className="text-xl font-bold text-white font-heading">
-                Authorized Hardware &amp; Component Sourcing
+                Deals with Hardware &amp; Components
               </h2>
               <p className="text-xs text-slate-400 max-w-xl mx-auto">
-                We strictly deploy authorized hardware with active manufacturer serial numbers, guaranteed cloud app compatibility, and full RMA support.
+                We strictly deploy hardware we deal with, with active manufacturer serial numbers, guaranteed cloud app compatibility, and full RMA support.
               </p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3">

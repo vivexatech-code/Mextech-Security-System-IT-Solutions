@@ -235,7 +235,7 @@ export const WHY_CHOOSE_MESTECH_DATA = [
     id: "trust-3",
     title: "Genuine Products",
     subtext: "Leading security & networking brands",
-    desc: "100% original hardware directly sourced from authorized brand channels with verifiable serial numbers and manufacturer warranties."
+    desc: "100% original hardware from brands we deal with, with verifiable serial numbers and manufacturer warranties."
   },
   {
     id: "trust-4",
@@ -959,7 +959,7 @@ export const STRENGTHS_DATA: StrengthItem[] = [
     id: "str-2",
     number: "02",
     title: "Quality Products",
-    description: "100% genuine hardware sourced from authorized industry leaders: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
+    description: "100% genuine hardware from brands we deal with: Hikvision, CP Plus, Dahua, Prama, Honeywell, Alba Urmet, D-Link, and WD Purple."
   },
   {
     id: "str-3",

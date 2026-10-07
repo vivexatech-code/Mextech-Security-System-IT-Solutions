@@ -32,7 +32,7 @@ export default function BrandsSection() {
         <div className="text-center max-w-3xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold uppercase tracking-wider">
             <Award className="w-3.5 h-3.5" />
-            <span>Authorized Hardware Sourcing</span>
+            <span>Deals with</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white font-heading tracking-tight">
@@ -44,7 +44,7 @@ export default function BrandsSection() {
           </p>
 
           <p className="text-sm text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            We deploy 100% genuine equipment directly sourced from authorized brand channels with valid manufacturer warranties, active cloud apps, and full RMA technical support.
+            We deploy 100% genuine equipment from the brands we deal with, with valid manufacturer warranties, active cloud apps, and full RMA technical support.
           </p>
         </div>
 
