@@ -81,7 +81,7 @@ export default function ContactForm() {
             Request a Free Site Survey &amp; Quote
           </h3>
           <p className="text-sm text-slate-400 mt-1">
-            Fill in your details below. Our field engineering team responds promptly. Pan India service coverage with dedicated support in Gurugram / Gurgaon.
+            Fill in your details below. Our field engineering team responds promptly. Pan India service coverage with dedicated support in Delhi NCR.
           </p>
         </div>
 

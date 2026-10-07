@@ -62,7 +62,7 @@ export default function PolicyModal({ isOpen, type, onClose }: PolicyModalProps)
           {type === "privacy" && (
             <>
               <p className="font-medium text-slate-200">
-                At {COMPANY_INFO.fullName} (based in Gurugram / Gurgaon, with Pan India service coverage), your privacy and property security are our utmost priority.
+                At {COMPANY_INFO.fullName} (based in Delhi NCR, with Pan India service coverage), your privacy and property security are our utmost priority.
               </p>
               <h4 className="font-semibold text-white pt-2">1. Information Collection</h4>
               <p>

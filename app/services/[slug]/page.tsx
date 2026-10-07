@@ -120,7 +120,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                     Pan India Service • Gurugram Hub
                   </span>
                   <p className="text-xs text-white font-medium mt-0.5">
-                    Site survey and service across India, with dedicated local support in Gurugram / Gurgaon
+                    Site survey and service across India, with dedicated local support in Delhi NCR
                   </p>
                 </div>
               </div>

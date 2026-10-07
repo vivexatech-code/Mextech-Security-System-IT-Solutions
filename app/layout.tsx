@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s | Mextech Security System & IT Solutions",
   },
   description:
-    "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Deals with Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
+    "Professional CCTV, access control, fire alarms, networking, and IT solutions with Pan India service coverage. Primary local office in Delhi NCR. Deals with Hikvision, Honeywell, Prama, CP Plus and partner hardware.",
   keywords: [
     "CCTV installation in Gurgaon",
     "CCTV camera installation Gurgaon",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     url: "https://mextechsecurity.com",
     title: "Mextech Security System & IT Solutions | Pan India Service",
     description:
-      "Reliable CCTV, Security & IT Solutions for homes, offices and businesses across India. Primary local office in Gurugram / Gurgaon. 100% genuine products and dedicated after-sales support.",
+      "Reliable CCTV, Security & IT Solutions for homes, offices and businesses across India. Primary local office in Delhi NCR. 100% genuine products and dedicated after-sales support.",
     siteName: "Mextech Security System & IT Solutions",
     images: [
       {
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mextech Security System & IT Solutions | CCTV, Security & IT Across India",
-    description: "Reliable CCTV, Security & IT Solutions with Pan India service coverage. Primary local office in Gurugram / Gurgaon. Serving since 2022.",
+    description: "Reliable CCTV, Security & IT Solutions with Pan India service coverage. Primary local office in Delhi NCR. Serving since 2022.",
     images: ["/assets/main.jpg"],
   },
   icons: {
@@ -91,7 +91,7 @@ const jsonLd = {
   name: "MEXTECH SECURITY SYSTEM & IT SOLUTIONS",
   image: "/assets/main.jpg",
   description:
-    "Professional security and IT solutions company based in Gurugram / Gurgaon with Pan India service coverage. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
+    "Professional security and IT solutions company based in Delhi NCR with Pan India service coverage. Specializing in CCTV surveillance, IP cameras, NVR/DVR repair, video door phones, fire alarms, biometric access control, networking and IT security.",
   foundingDate: COMPANY_INFO.established,
   telephone: [COMPANY_INFO.phoneRaw, COMPANY_INFO.phoneSecondaryRaw],
   email: COMPANY_INFO.email,
@@ -117,7 +117,7 @@ const jsonLd = {
     },
   ],
   priceRange: "₹₹",
-  areaServed: ["IN", "India", "Gurugram", "Gurgaon"],
+  areaServed: ["IN", "India", "Delhi NCR", "Gurugram", "Gurgaon"],
 };
 
 export default function RootLayout({

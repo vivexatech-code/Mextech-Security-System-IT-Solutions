@@ -9,7 +9,7 @@ import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "All Security & IT Solutions | MEXTECH Pan India",
   description:
-    "Explore our full catalog of 13 commercial and residential security solutions: CCTV cameras, NVR/DVR, access control, video door phones, fire alarms, enterprise Wi-Fi, and AMC repair. Pan India service coverage with dedicated support in Gurugram / Gurgaon.",
+    "Explore our full catalog of 13 commercial and residential security solutions: CCTV cameras, NVR/DVR, access control, video door phones, fire alarms, enterprise Wi-Fi, and AMC repair. Pan India service coverage with dedicated support in Delhi NCR.",
 };
 
 const CATEGORIES = [
@@ -36,7 +36,7 @@ export default function ServicesPage() {
               Our Security &amp; IT Solutions
             </h1>
             <p className="text-lg text-slate-300 leading-relaxed">
-              Complete low-voltage technology systems engineered for villas, corporate offices, warehouses, and industrial plants across India, with dedicated support from Gurugram / Gurgaon.
+              Complete low-voltage technology systems engineered for villas, corporate offices, warehouses, and industrial plants across India, with dedicated support from Delhi NCR.
             </p>
           </div>
         </div>

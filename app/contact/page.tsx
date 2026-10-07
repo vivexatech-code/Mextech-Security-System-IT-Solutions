@@ -16,7 +16,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us | MEXTECH Security System & IT Solutions",
   description:
-    "Contact Mextech for CCTV, security and IT solutions with Pan India service coverage. Primary office in Gurugram / Gurgaon. Call +91 85109 29404 or alternate +91 80021 37438. Open 7 days, 9 AM to 9 PM.",
+    "Contact Mextech for CCTV, security and IT solutions with Pan India service coverage. Primary office in Delhi NCR. Call +91 85109 29404 or alternate +91 80021 37438. Open 7 days, 9 AM to 9 PM.",
 };
 
 export default function ContactPage() {

@@ -22,7 +22,7 @@ import CTA from "@/components/CTA";
 export const metadata: Metadata = {
   title: "About Us | MEXTECH Security System & IT Solutions Gurugram",
   description:
-    "Learn about Mextech Security System & IT Solutions, serving since 2022 from Gurugram / Gurgaon with Pan India service coverage. CCTV, networking, access control, and genuine hardware standards.",
+    "Learn about Mextech Security System & IT Solutions, serving since 2022 from Delhi NCR with Pan India service coverage. CCTV, networking, access control, and genuine hardware standards.",
 };
 
 const VALUES = [
@@ -39,7 +39,7 @@ const VALUES = [
   {
     icon: <Clock className="w-6 h-6 text-amber-400" />,
     title: "Dedicated Gurugram Support",
-    desc: "Local field technicians based in Gurugram / Gurgaon, with site survey and service available across India and priority breakdown support from our primary operations hub.",
+    desc: "Local field technicians based in Delhi NCR, with site survey and service available across India and priority breakdown support from our primary operations hub.",
   },
   {
     icon: <Sparkles className="w-6 h-6 text-purple-400" />,

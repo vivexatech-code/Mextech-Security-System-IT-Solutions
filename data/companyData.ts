@@ -9,7 +9,7 @@ import {
 } from "../types";
 
 export const COMPANY_START_YEAR = 2022;
-export const PRIMARY_LOCATION = "Gurugram / Gurgaon";
+export const PRIMARY_LOCATION = "Delhi NCR";
 export const SERVICE_COVERAGE = "Pan India Service Coverage";
 
 export const COMPANY_INFO = {
@@ -33,7 +33,7 @@ export const COMPANY_INFO = {
   addressLine2: "Palam Vihar Extension, Gurgaon – 122017",
   coverage: SERVICE_COVERAGE,
   coverageShort: "PAN INDIA SERVICE",
-  coverageSummary: "Site survey and service available across India, with dedicated local support in Gurugram / Gurgaon.",
+  coverageSummary: "Site survey and service available across India, with dedicated local support in Delhi NCR.",
   googleMapsUrl: "https://share.google/YeM2ngP05irxCc2L6",
   googleReviewRating: "4.9",
   hours: "9:00 AM – 9:00 PM (All 7 Days)",
@@ -246,8 +246,8 @@ export const WHY_CHOOSE_MESTECH_DATA = [
   {
     id: "trust-5",
     title: "Pan India Service Coverage",
-    subtext: "Primary local area: Gurugram / Gurgaon",
-    desc: "Site survey and service available across India, with dedicated local support from our Gurugram / Gurgaon operations."
+    subtext: "Primary local area: Delhi NCR",
+    desc: "Site survey and service available across India, with dedicated local support from our Delhi NCR operations."
   }
 ];
 
@@ -965,7 +965,7 @@ export const STRENGTHS_DATA: StrengthItem[] = [
     id: "str-3",
     number: "03",
     title: "Quick Service",
-    description: "Pan India service coverage with dedicated local support in Gurugram / Gurgaon for site surveys, installation, and after-sales service."
+    description: "Pan India service coverage with dedicated local support in Delhi NCR for site surveys, installation, and after-sales service."
   },
   {
     id: "str-4",
